@@ -4,3 +4,4 @@ venv/
 __pycache__/
 asruns/
 *_cache
+.DS_store
