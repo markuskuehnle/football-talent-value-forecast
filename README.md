@@ -1,6 +1,22 @@
 # Football Talent Forecasting: 1-Year Market Value Prediction
 
 ---
+Python Env:
+
+# 1. Clone or pull the repo
+git clone https://github.com/markuskuehnle/football-talent-value-forecast.git
+cd football-talent-value-forecast
+
+# 2. Create & activate the same-named venv
+uv venv .football-talent-env
+source .football-talent-env/bin/activate
+
+# 3. Install everything listed in pyproject.toml
+uv pip install -e .        # reads dependencies = [...] and installs them
+
+
+
+---
 
 > Template:
 
