@@ -9,5 +9,6 @@ dependencies = [
     "requests",
     "beautifulsoup4",
     "lxml",
-    "ipykernel"
+    "ipykernel",
+    "pip>=25.1.1",
 ]
