@@ -1,0 +1,35 @@
+Player,Nation,Pos,Age,90s,Tkl,TklW,Def_3rd,Mid_3rd,Att_3rd,Tkl.1,Att,Tkl%,Lost,Blocks,Sh,Pass,Int,Tkl+Int,Clr,Err,Matches
+Cristhian Mosquera,es ESP,DF,20.0,36.9,56,36,41,13,2,31,40,77.5,9,37,24,13,35,91,128,4,Matches
+Diego López,es ESP,"MF,FW",22.0,30.4,31,18,11,16,4,16,47,34.0,31,30,0,30,16,47,15,0,Matches
+Giorgi Mamardashvili,ge GEO,GK,23.0,34.0,2,2,2,0,0,2,3,66.7,1,0,0,0,1,3,16,3,Matches
+César Tárrega,es ESP,DF,22.0,33.6,49,37,33,13,3,19,31,61.3,12,41,20,21,22,71,222,2,Matches
+Luis Rioja,es ESP,"MF,FW",30.0,31.5,33,21,14,12,7,14,42,33.3,28,30,1,29,22,55,44,1,Matches
+Javier Guerra,es ESP,MF,21.0,28.7,50,27,18,21,11,26,56,46.4,30,15,3,12,20,70,49,3,Matches
+Enzo Barrenechea,ar ARG,MF,23.0,24.3,57,30,22,29,6,32,46,69.6,14,30,8,22,28,85,48,1,Matches
+Dimitri Foulquier,fr FRA,DF,31.0,25.5,48,31,29,13,6,24,36,66.7,12,21,5,16,16,64,86,1,Matches
+Hugo Duro,es ESP,FW,24.0,24.1,13,8,4,7,2,5,13,38.5,8,11,2,9,10,23,11,0,Matches
+Domingos André Ribeiro Almeida,pt POR,"MF,FW",24.0,22.0,48,32,18,21,9,14,39,35.9,25,21,3,18,8,56,14,1,Matches
+José Luis Gayà,es ESP,DF,29.0,20.0,57,40,39,15,3,40,58,69.0,18,16,2,14,25,82,61,0,Matches
+José Luis García Vayá,es ESP,MF,25.0,19.4,43,25,24,13,6,19,33,57.6,14,23,6,17,19,62,42,0,Matches
+Jesus Vazquez,es ESP,DF,21.0,10.2,23,18,12,9,2,10,19,52.6,9,16,5,11,10,33,30,0,Matches
+Yarek Gasiorowski,es ESP,DF,19.0,10.5,19,16,16,3,0,9,13,69.2,4,17,6,11,26,45,60,0,Matches
+Umar Sadiq,ng NGA,FW,27.0,9.2,10,5,3,5,2,4,6,66.7,2,7,0,7,1,11,7,0,Matches
+Thierry Correia,pt POR,DF,25.0,8.5,27,18,19,5,3,13,23,56.5,10,10,1,9,4,31,18,0,Matches
+Mouctar Diakhaby,gn GUI,DF,27.0,7.3,8,3,8,0,0,4,6,66.7,2,8,6,2,11,19,56,0,Matches
+Rafa Mir,es ESP,"FW,MF",27.0,8.4,12,6,8,4,0,3,9,33.3,6,5,0,5,5,17,9,0,Matches
+Dani Gómez,es ESP,FW,26.0,5.9,3,2,0,0,3,0,0,,0,1,0,1,2,5,4,0,Matches
+Francisco Perez,es ESP,"FW,MF",21.0,6.3,17,12,7,8,2,10,16,62.5,6,8,1,7,3,20,6,0,Matches
+Hugo Guillamón,es ESP,MF,24.0,4.0,11,8,1,9,1,9,10,90.0,1,4,1,3,5,16,9,1,Matches
+Stole Dimitrievski,mk MKD,GK,30.0,4.0,0,0,0,0,0,0,0,,0,0,0,0,0,0,3,1,Matches
+Sergi Canós,es ESP,"MF,FW",27.0,4.1,11,7,3,4,4,4,10,40.0,6,6,1,5,5,16,5,0,Matches
+Ivan Jaime Pajuelo,es ESP,MF,23.0,3.3,8,5,2,3,3,4,5,80.0,1,2,0,2,2,10,0,0,Matches
+Germán Valera,es ESP,MF,22.0,1.6,1,1,1,0,0,0,1,0.0,1,2,0,2,4,5,2,1,Matches
+Max Aarons,eng ENG,"DF,MF",24.0,1.3,4,4,2,2,0,4,5,80.0,1,1,0,1,0,4,3,0,Matches
+Maximiliano Caufriez,be BEL,DF,27.0,1.0,1,1,1,0,0,1,1,100.0,0,2,1,1,1,2,4,0,Matches
+Rodrigo Abajas,es ESP,DF,21.0,0.7,3,2,2,1,0,3,3,100.0,0,1,0,1,1,4,0,0,Matches
+Martín Tejón,es ESP,"MF,DF",20.0,0.5,2,0,0,2,0,1,2,50.0,1,0,0,0,0,2,0,0,Matches
+Iker Córdoba,es ESP,DF,18.0,0.2,0,0,0,0,0,0,0,,0,0,0,0,0,0,1,0,Matches
+David Otorbi,es ESP,MF,16.0,0.2,0,0,0,0,0,0,0,,0,1,0,1,0,0,0,0,Matches
+Alberto Marí,es ESP,FW,23.0,0.1,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,Matches
+Squad Total,,,24.7,38.0,647,415,340,228,79,321,573,56.0,252,366,96,270,302,949,953,19,
+Opponent Total,,,26.8,38.0,661,388,292,291,78,321,557,57.6,236,409,96,313,293,954,902,19,

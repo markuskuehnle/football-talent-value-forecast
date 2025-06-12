@@ -1,0 +1,31 @@
+Player,Nation,Pos,Age,90s,Att,Live,Dead,FK,TB,Sw,Crs,TI,CK,In,Out,Str,Cmp,Off,Blocks,Matches
+Giorgi Mamardashvili,ge GEO,GK,21.0,38.0,1086,740,342,103,0,3,0,0,0,0,0,0,697,4,1,Matches
+Samuel Lino,br BRA,"FW,MF",22.0,32.1,1163,1121,37,5,5,2,82,22,10,1,2,0,878,5,57,Matches
+José Luis Gayà,es ESP,DF,27.0,30.1,1734,1344,378,51,2,13,213,285,42,9,25,0,1284,12,39,Matches
+Domingos André Ribeiro Almeida,pt POR,MF,22.0,28.2,1402,1226,164,72,7,12,127,13,63,22,17,0,1110,12,18,Matches
+Mouctar Diakhaby,gn GUI,DF,25.0,27.2,1185,1141,42,37,0,12,1,1,0,0,0,0,971,2,6,Matches
+Yunus Musah,us USA,MF,19.0,23.4,771,757,12,3,3,11,40,9,0,0,0,0,604,2,29,Matches
+Thierry Correia,pt POR,DF,23.0,22.3,1363,1136,224,28,1,7,87,196,0,0,0,0,1047,3,34,Matches
+Edinson Cavani,uy URU,FW,35.0,16.1,354,325,26,0,4,4,3,0,0,0,0,0,263,3,7,Matches
+Eray Cömert,ch SUI,DF,24.0,18.6,945,890,53,44,0,24,1,0,0,0,0,0,815,2,6,Matches
+Hugo Guillamón,es ESP,MF,22.0,18.1,1028,932,88,69,4,18,32,1,16,2,13,0,852,8,14,Matches
+Gabriel Paulista,br BRA,DF,31.0,16.7,769,705,62,36,0,10,0,6,0,0,0,0,645,2,4,Matches
+Nicolás González,es ESP,MF,20.0,15.6,778,748,28,26,2,5,3,1,0,0,0,0,676,2,8,Matches
+Dimitri Foulquier,fr FRA,DF,29.0,19.3,932,712,217,22,0,2,86,194,1,0,0,0,663,3,37,Matches
+Samu Castillejo,es ESP,"FW,MF",27.0,15.1,622,551,68,19,2,6,87,8,40,21,10,0,474,3,15,Matches
+Justin Kluivert,nl NED,"FW,MF",23.0,16.1,399,345,49,8,0,2,64,6,31,5,10,0,276,5,12,Matches
+Cenk Özkacar,tr TUR,DF,21.0,15.2,769,744,23,18,0,16,3,2,0,0,0,0,646,2,8,Matches
+Hugo Duro,es ESP,FW,22.0,15.4,277,248,27,2,0,3,2,1,0,0,0,0,203,2,9,Matches
+Ilaix Moriba,gn GUI,MF,19.0,11.2,501,491,8,4,4,3,4,3,0,0,0,0,403,2,10,Matches
+Toni Lato,es ESP,"DF,MF",24.0,10.2,490,417,72,10,1,3,32,50,12,2,6,0,390,1,9,Matches
+Javier Guerra,es ESP,MF,19.0,6.7,239,233,3,3,0,4,8,0,0,0,0,0,188,3,4,Matches
+Diego López,es ESP,"FW,MF",20.0,5.0,151,149,1,1,2,1,12,0,0,0,0,0,101,1,7,Matches
+Marcos André,br BRA,"FW,MF",25.0,5.0,64,58,6,0,1,1,1,0,0,0,0,0,43,0,1,Matches
+Jesus Vazquez,es ESP,"DF,MF",19.0,3.4,171,138,33,0,1,0,11,33,0,0,0,0,142,0,5,Matches
+Carlos Soler,es ESP,MF,25.0,2.7,123,102,21,9,0,1,16,0,11,5,5,0,92,0,3,Matches
+Cristhian Mosquera,es ESP,DF,18.0,1.6,65,46,19,0,0,0,1,18,0,0,0,0,53,0,0,Matches
+Francisco Perez,es ESP,"FW,MF",19.0,1.6,77,73,3,0,0,1,8,3,0,0,0,0,59,1,2,Matches
+Maxi Gómez,uy URU,FW,25.0,1.2,14,13,1,0,0,0,0,0,0,0,0,0,9,0,0,Matches
+Alberto Marí,es ESP,"FW,MF",21.0,1.0,20,20,0,0,0,0,0,0,0,0,0,0,8,0,0,Matches
+Squad Total,,,24.2,38.0,17492,15405,2007,570,39,164,924,852,226,67,88,0,13592,80,345,
+Opponent Total,,,27.5,38.0,16357,14310,1973,559,51,167,594,837,175,77,73,0,12580,74,347,
