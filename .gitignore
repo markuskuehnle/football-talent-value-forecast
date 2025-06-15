@@ -5,3 +5,4 @@ __pycache__/
 asruns/
 *_cache
 .DS_store
+.env
