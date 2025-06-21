@@ -1,26 +1,10 @@
 # Football Talent Forecasting: 1-Year Market Value Prediction
 
 ---
-Python Env:
-
-# 1. Clone or pull the repo
-git clone https://github.com/markuskuehnle/football-talent-value-forecast.git
-cd football-talent-value-forecast
-
-# 2. Create & activate the same-named venv
-uv venv .football-talent-env
-source .football-talent-env/bin/activate
-
-# 3. Install everything listed in pyproject.toml
-uv pip install -e .        # reads dependencies = [...] and installs them
-
-
-
----
 
 > Template:
 
-```
+```markdown
 ## 1. **Executive Summary**
 
 A one-paragraph TL;DR for busy, non-technical readers.
@@ -70,17 +54,22 @@ Show maturity and critical thinking.
 
 ---
 
-## Setup 
+## Dev Setup
 
-### Setup virtual environment with UV
+Python Env:
 
-```bash
-uv venv .venv
-```
+### 1. Clone or pull the repo
+git clone https://github.com/markuskuehnle/football-talent-value-forecast.git
+cd football-talent-value-forecast
 
-activate your venv, then continue with the next step
+### 2. Create & activate the same-named venv
+uv venv .football-talent-env
+source .football-talent-env/bin/activate
 
-### Install Pre-Commit Hooks
+### 3. Install everything listed in pyproject.toml
+uv pip install -e .        # reads dependencies = [...] and installs them
+
+### 4. Install Pre-Commit Hooks
 
 on CLI run:
 
