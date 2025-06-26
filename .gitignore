@@ -6,3 +6,6 @@ asruns/
 *_cache
 .DS_store
 .env
+
+# Test output
+tests/tmp/
