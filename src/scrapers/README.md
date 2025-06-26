@@ -1,125 +1,164 @@
-# FBref Scraper
+# Football Data Scrapers
 
-This module provides functionality to scrape football statistics from FBref.com for use in Jupyter notebooks.
+This module contains scrapers for football statistics and market data from FBref and Transfermarkt.
 
-## Features
+## FBref Scraper
 
-- Scrapes 7 different stat tables from FBref squad pages
-- Configurable rate limiting to avoid being blocked
-- Realistic time estimation before scraping
-- User confirmation with estimated time before scraping
-- Saves data to CSV files with consistent naming
-- Supports current and past seasons
-- Configurable parameters for different use cases
+Scrapes detailed football performance statistics from [FBref](https://fbref.com).
 
-## Usage in Notebooks
+### Features
 
-### Basic Usage
+- **Multi-table scraping**: Gets all 7 relevant statistical tables (standard stats, shooting, passing, etc.)
+- **Dynamic season detection**: Automatically extracts season from URLs or uses current season
+- **Rate limiting**: Built-in protection against FBref's rate limits (10 requests per 15 minutes)
+- **Configurable delays**: Random delays between requests to avoid detection
+- **File management**: Saves data to CSV files with consistent naming
+
+### Usage
 
 ```python
-from pathlib import Path
-from src.scrapers.fbref_scraper import scrape_fbref_squad
+from src.scrapers import scrape_fbref_squad
 
-# Scrape Valencia CF current season data
+# Scrape Valencia CF squad statistics
 url = "https://fbref.com/en/squads/dcc91a7b/Valencia-Stats"
-result = scrape_fbref_squad(url, output_dir=Path("data", "raw"))
+data = scrape_fbref_squad(url, force_overwrite=False)
+
+# Access individual tables
+stats_df = data["df_player_stats_2425"]
+shooting_df = data["df_player_shooting_2425"]
 ```
 
-### Advanced Usage with Custom Settings
+### Advanced Usage
 
 ```python
-from src.scrapers.fbref_scraper import FBrefScraper
+from src.scrapers import FBrefScraper
 
-# Create scraper with custom settings
 scraper = FBrefScraper(
-    output_dir=Path("custom_output"),
-    max_requests=5,           # Lower limit for testing
-    cooldown_seconds=300,     # 5 minutes cooldown
-    delay_range=(2, 5),       # Faster delays
-    current_season="2526"     # Custom current season
+    output_dir=Path("custom/output"),
+    max_requests=15,
+    cooldown_seconds=20 * 60,
+    delay_range=(3, 8),
+    current_season="2324"
 )
 
-# Scrape with force overwrite
-result = scraper.scrape_squad_stats(url, force_overwrite=True)
+data = scraper.scrape_squad_stats(url, force_overwrite=True)
 ```
 
-### Configuration Options
+## Transfermarkt Scraper
 
-The scraper supports these configurable parameters:
+Scrapes player market values and transfer data from [Transfermarkt](https://transfermarkt.com).
 
-- `output_dir`: Directory to save CSV files (default: `data/raw`)
-- `max_requests`: Maximum requests before cooldown (default: `10`)
-- `cooldown_seconds`: Cooldown period in seconds (default: `900` = 15 minutes)
-- `delay_range`: Range for random delays between requests (default: `(5, 10)` seconds)
-- `current_season`: Current season identifier (default: `"2425"`)
+### Features
 
-## Supported URLs
+- **Dynamic team discovery**: Automatically finds team URLs by searching Transfermarkt
+- **Multi-season scraping**: Scrapes data across multiple seasons with configurable delays
+- **Market value data**: Extracts player market values, contracts, and transfer information
+- **Flexible output**: Saves to Excel with optional metadata column removal
+- **Rate limiting**: Random delays between requests to avoid being blocked
 
-The scraper supports FBref squad URLs in these formats:
+### Usage
 
-- **Current season**: `https://fbref.com/en/squads/{team_id}/{team_name}-Stats`
-- **Past seasons**: `https://fbref.com/en/squads/{team_id}/{season}/{team_name}-Stats`
+```python
+from src.scrapers import scrape_transfermarkt_team
 
-Examples:
-- Valencia CF current: `https://fbref.com/en/squads/dcc91a7b/Valencia-Stats`
-- Valencia CF 2023-24: `https://fbref.com/en/squads/dcc91a7b/2023-2024/Valencia-Stats`
-- Liverpool current: `https://fbref.com/en/squads/822bd0ba/Liverpool-Stats`
+# Scrape Valencia CF market values for multiple seasons
+data = scrape_transfermarkt_team(
+    team_name="Valencia CF",
+    min_season=2020,
+    max_season=2024,
+    drop_metadata_columns=True
+)
+```
 
-## Season Detection
+### Advanced Usage
 
-The scraper automatically detects seasons from URLs:
-- URLs with `/2023-2024/` → season `"2324"`
-- URLs with `/2022-2023/` → season `"2223"`
-- URLs without season → uses configured `current_season` (default: `"2425"`)
+```python
+from src.scrapers import TransfermarktScraper
+
+scraper = TransfermarktScraper(
+    output_dir=Path("custom/output"),
+    delay_range=(2.0, 5.0),
+    headers={"User-Agent": "Custom Agent"}
+)
+
+# Scrape single season
+season_data = scraper.scrape_team_season("Liverpool", 2024)
+
+# Scrape multiple seasons
+team_data = scraper.scrape_team_multiple_seasons("Real Madrid", 2020, 2024)
+
+# Full scraping with file output
+team_data = scraper.scrape_team(
+    team_name="Barcelona",
+    min_season=2020,
+    max_season=2024,
+    output_filename="barcelona_market_values.xlsx",
+    drop_metadata_columns=True
+)
+```
+
+## Data Sources
+
+### FBref Data
+- **Performance Statistics**: Goals, assists, passes, shots, defensive actions
+- **Advanced Metrics**: Expected goals (xG), possession stats, goal-creating actions
+- **Player Demographics**: Age, position, nationality, matches played
+
+### Transfermarkt Data
+- **Market Values**: Current player valuations in euros
+- **Transfer Information**: Contract details, transfer fees
+- **Player Demographics**: Age, position, nationality, shirt numbers
+
+## File Structure
+
+```
+src/scrapers/
+├── __init__.py              # Module exports
+├── fbref_scraper.py         # FBref scraper implementation
+├── transfermarkt_scraper.py # Transfermarkt scraper implementation
+└── README.md               # This documentation
+```
 
 ## Output Files
 
-The scraper generates 7 CSV files per squad/season:
-
+### FBref Output
 - `df_player_stats_{season}.csv` - Standard statistics
-- `df_player_shooting_{season}.csv` - Shooting statistics  
+- `df_player_shooting_{season}.csv` - Shooting statistics
 - `df_player_passing_{season}.csv` - Passing statistics
 - `df_player_passing_types_{season}.csv` - Pass types
-- `df_player_gca_{season}.csv` - Goal and shot creation
-- `df_player_defense_{season}.csv` - Defensive actions
+- `df_player_gca_{season}.csv` - Goal-creating actions
+- `df_player_defense_{season}.csv` - Defensive statistics
 - `df_player_possession_{season}.csv` - Possession statistics
+
+### Transfermarkt Output
+- `{team_name}_players_{min_season}_{max_season}.xlsx` - Market value data
 
 ## Rate Limiting
 
-The scraper implements configurable rate limiting to respect FBref's terms:
+Both scrapers implement rate limiting to respect website policies:
 
-- Configurable maximum requests per cooldown period
-- Configurable cooldown period
-- Configurable random delays between requests
-- Automatic cooldown when limit is reached
-- Clear messaging when rate limits are hit
-- User confirmation before starting
+- **FBref**: 10 requests per 15 minutes with automatic cooldown
+- **Transfermarkt**: Random delays (1-3 seconds default) between requests
 
-### Rate Limit Messaging
+## Error Handling
 
-When the rate limit is reached, the scraper will display:
-
-```
-⚠️  RATE LIMIT REACHED!
-   Made 10 requests (limit: 10)
-   Cooling down for 15 minutes to respect FBref's rate limits...
-   This is normal - FBref allows max 10 requests per 15 minutes
-✅ Cooldown complete! Resuming scraping...
-```
+- Network errors are caught and logged
+- Missing data is handled gracefully
+- File existence checks prevent overwrites (unless forced)
+- Invalid URLs or team names return empty DataFrames
 
 ## Testing
 
 Run tests with pytest:
 
 ```bash
-python -m pytest tests/test_fbref_scraper.py -v
-```
+# Unit tests only
+pytest tests/test_fbref_scraper.py -v
+pytest tests/test_transfermarkt_scraper.py -v
 
-## Module Structure
+# Integration tests (require network access)
+pytest tests/ -m integration -v
 
-```
-src/scrapers/
-├── __init__.py
-├── fbref_scraper.py      # Main scraper class and functions
-└── README.md            # This documentation
+# All tests
+pytest tests/ -v
 ``` 
