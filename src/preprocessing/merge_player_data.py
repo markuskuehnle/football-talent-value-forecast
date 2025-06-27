@@ -68,17 +68,22 @@ def parse_market_value(val: str) -> Optional[float]:
 
 def convert_season_format(season: str) -> str:
     """Convert between FBref format (2324) and Transfermarkt format (2023)."""
+    if not isinstance(season, str):
+        season = str(season)
+    
     if len(season) == 4 and season.isdigit():
         # Transfermarkt format (2023) to FBref format (2324)
         if season.startswith('20'):
-            return f"{season[2:4]}{str(int(season[2:4]) + 1).zfill(2)}"
+            year = int(season[2:4])
+            return f"{year:02d}{(year + 1):02d}"
         else:
             # Already in FBref format
             return season
-    else:
+    elif len(season) == 4 and season.isdigit():
         # FBref format (2324) to Transfermarkt format (2023)
-        if len(season) == 4 and season.isdigit():
-            return f"20{season[:2]}"
+        year = int(season[:2])
+        return f"20{year:02d}"
+    
     return season
 
 
@@ -154,14 +159,39 @@ def merge_fbref_transfermarkt(fbref_df: pd.DataFrame, tm_df: pd.DataFrame) -> pd
         
         # Recombine matched and unmatched data
         df_merged = pd.concat([matched_fbref, unmatched_fbref], ignore_index=True)
-    
+
+        # Drop any column Age* except for Age_x
+        df_merged = df_merged.drop(columns=[col for col in df_merged.columns if col.startswith('Age') and col != 'Age_x'])
+        df_merged = df_merged.rename(columns={'Age_x': 'Age'})
+
     return df_merged
 
 
 def run_merge_pipeline(team_name: str, seasons: List[str]) -> pd.DataFrame:
-    base_dir = Path("data")
+    # Try different possible data directory paths
+    possible_paths = [
+        Path("data"),  # From project root
+        Path("../data"),  # From notebooks directory
+        Path("../../data"),  # From other subdirectories
+    ]
+    
+    base_dir = None
+    for path in possible_paths:
+        if path.exists():
+            base_dir = path
+            break
+    
+    if base_dir is None:
+        raise FileNotFoundError(f"Data directory not found. Tried: {[str(p) for p in possible_paths]}")
+    
     fbref_dir = base_dir / "interim" / team_name / "fbref"
     tm_path = base_dir / "interim" / team_name / "transfermarkt" / f"{team_name.lower().replace(' ', '_')}_market_value_22_25.csv"
+
+    # Check if directories exist
+    if not fbref_dir.exists():
+        raise FileNotFoundError(f"FBref directory not found: {fbref_dir}")
+    if not tm_path.exists():
+        raise FileNotFoundError(f"Transfermarkt file not found: {tm_path}")
 
     prefixes = [
         "player_stats", "player_shooting", "player_passing", "player_passing_types",
