@@ -1,7 +1,7 @@
 import pandas as pd
 from pathlib import Path
 import ast
-from typing import List, Dict, Optional
+from typing import List, Dict, Optional, Tuple
 from fuzzywuzzy import fuzz
 
 
@@ -160,14 +160,123 @@ def merge_fbref_transfermarkt(fbref_df: pd.DataFrame, tm_df: pd.DataFrame) -> pd
         # Recombine matched and unmatched data
         df_merged = pd.concat([matched_fbref, unmatched_fbref], ignore_index=True)
 
-        # Drop any column Age* except for Age_x
-        df_merged = df_merged.drop(columns=[col for col in df_merged.columns if col.startswith('Age') and col != 'Age_x'])
-        df_merged = df_merged.rename(columns={'Age_x': 'Age'})
-
+    # Clean up the merged data
+    df_merged = clean_merged_data(df_merged)
+    
     return df_merged
 
 
-def run_merge_pipeline(team_name: str, seasons: List[str]) -> pd.DataFrame:
+def clean_merged_data(df_merged: pd.DataFrame) -> pd.DataFrame:
+    """Clean the merged data by dropping unwanted columns and converting data types."""
+    
+    # Drop Nation column if it exists
+    if 'Nation' in df_merged.columns:
+        df_merged = df_merged.drop(columns=['Nation'])
+        print(f"Dropped 'Nation' column")
+    
+    # Drop all Age columns except Age_x, then rename Age_x to Age
+    age_columns = [col for col in df_merged.columns if col.startswith('Age') and col != 'Age_x']
+    if age_columns:
+        df_merged = df_merged.drop(columns=age_columns)
+        print(f"Dropped Age columns: {age_columns}")
+    
+    # Rename Age_x to Age if it exists
+    if 'Age_x' in df_merged.columns:
+        df_merged = df_merged.rename(columns={'Age_x': 'Age'})
+        print(f"Renamed 'Age_x' to 'Age'")
+    
+    # Convert Age to integer, handling NaN values
+    if 'Age' in df_merged.columns:
+        # First try to convert to float, then to int
+        df_merged['Age'] = pd.to_numeric(df_merged['Age'], errors='coerce')
+        # Fill NaN with a default value (e.g., -1) or keep as NaN
+        df_merged['Age'] = df_merged['Age'].fillna(-1).astype(int)
+        print(f"Converted 'Age' to integer (NaN values set to -1)")
+    
+    # Sort by player name and then by season chronologically
+    if 'Player' in df_merged.columns and 'Season' in df_merged.columns:
+        df_merged = df_merged.sort_values(['Player', 'Season'], ascending=[True, True])
+        print(f"Sorted dataframe by Player name and Season chronologically")
+    
+    return df_merged
+
+
+def analyze_missing_market_values(df_merged: pd.DataFrame) -> Dict[str, any]:
+    """Analyze why some players are missing market value data."""
+    
+    missing_market_values = df_merged[df_merged['MarketValueEuro'].isna()]
+    
+    # 1. System/Total rows
+    system_rows = missing_market_values[missing_market_values['Player'].str.contains('Total|Squad|Opponent', case=False)]
+    
+    # 2. Incomplete names
+    incomplete_names = missing_market_values[missing_market_values['Player'].str.len() < 5]
+    
+    # 3. New players in latest season (likely don't have market values yet)
+    latest_season = df_merged['Season'].max()
+    new_players_latest = missing_market_values[
+        (missing_market_values['Season'] == latest_season) & 
+        (~missing_market_values['Player'].str.contains('Total|Squad|Opponent', case=False))
+    ]
+    
+    # 4. Players with name matching issues
+    name_matching_issues = missing_market_values[
+        (~missing_market_values['Player'].str.contains('Total|Squad|Opponent', case=False)) &
+        (missing_market_values['Player'].str.len() >= 5) &
+        (missing_market_values['Season'] != latest_season)
+    ]
+    
+    analysis = {
+        'total_missing': len(missing_market_values),
+        'system_rows': len(system_rows),
+        'incomplete_names': len(incomplete_names),
+        'new_players_latest_season': len(new_players_latest),
+        'name_matching_issues': len(name_matching_issues),
+        'system_players': system_rows['Player'].unique().tolist(),
+        'new_players': new_players_latest['Player'].unique().tolist(),
+        'name_issues': name_matching_issues['Player'].unique().tolist()
+    }
+    
+    return analysis
+
+
+def filter_merged_data(df_merged: pd.DataFrame, remove_system_rows: bool = True, 
+                      only_with_market_values: bool = False) -> pd.DataFrame:
+    """Filter the merged data based on specified criteria."""
+    
+    df_filtered = df_merged.copy()
+    
+    if remove_system_rows:
+        # Remove system/total rows
+        df_filtered = df_filtered[~df_filtered['Player'].str.contains('Total|Squad|Opponent', case=False)]
+        print(f"Removed system rows: {len(df_merged) - len(df_filtered)} rows")
+    
+    if only_with_market_values:
+        # Only keep rows with market values
+        df_filtered = df_filtered[df_filtered['MarketValueEuro'].notna()]
+        print(f"Kept only rows with market values: {len(df_filtered)} rows")
+    
+    return df_filtered
+
+
+def run_merge_pipeline(team_name: str, seasons: List[str], 
+                      remove_system_rows: bool = True,
+                      only_with_market_values: bool = False,
+                      analyze_missing: bool = True) -> Tuple[pd.DataFrame, Dict[str, any]]:
+    """
+    Run the complete merge pipeline with optional filtering and analysis.
+    
+    Args:
+        team_name: Name of the team
+        seasons: List of seasons to merge
+        remove_system_rows: Whether to remove system/total rows
+        only_with_market_values: Whether to keep only rows with market values
+        analyze_missing: Whether to analyze missing market values
+    
+    Returns:
+        Tuple of (merged_dataframe, analysis_results)
+    """
+    
     # Try different possible data directory paths
     possible_paths = [
         Path("data"),  # From project root
@@ -203,5 +312,24 @@ def run_merge_pipeline(team_name: str, seasons: List[str]) -> pd.DataFrame:
     df_tm_clean = load_clean_transfermarkt(tm_path)
 
     df_merged = merge_fbref_transfermarkt(df_fbref_all, df_tm_clean)
-
-    return df_merged
+    
+    # Analyze missing market values if requested
+    analysis = None
+    if analyze_missing:
+        analysis = analyze_missing_market_values(df_merged)
+        
+        # Print analysis summary
+        print(f"\n=== MERGE ANALYSIS ===")
+        print(f"Total rows: {len(df_merged)}")
+        print(f"Rows with market value: {df_merged['MarketValueEuro'].notna().sum()}")
+        print(f"Missing market values: {analysis['total_missing']}")
+        print(f"  - System rows: {analysis['system_rows']}")
+        print(f"  - Incomplete names: {analysis['incomplete_names']}")
+        print(f"  - New players in {seasons[-1]}: {analysis['new_players_latest_season']}")
+        print(f"  - Name matching issues: {analysis['name_matching_issues']}")
+    
+    # Filter data if requested
+    if remove_system_rows or only_with_market_values:
+        df_merged = filter_merged_data(df_merged, remove_system_rows, only_with_market_values)
+    
+    return df_merged, analysis
