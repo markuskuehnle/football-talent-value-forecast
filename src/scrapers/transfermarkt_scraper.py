@@ -338,7 +338,7 @@ class TransfermarktScraper:
             
             # Save to Excel
             filepath = self.output_dir / output_filename
-            team_data.to_excel(filepath, index=False)
+            team_data.to_csv(filepath, index=False)
             print(f"\nData saved to {filepath}")
             print(f"Total records: {len(team_data)}")
             
