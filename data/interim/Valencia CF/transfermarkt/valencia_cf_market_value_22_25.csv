@@ -1,0 +1,102 @@
+Rank,Name,Position,Age,Nationality,Current club,Season,MarketValueEuro,PrimaryNationality
+25.0,Giorgi Mamardashvili,Goalkeeper,22,Georgia,Valencia CF,2022,25000000.0,Georgia
+23.0,Jaume Doménech,Goalkeeper,32,Spain,Valencia CF,2022,1000000.0,Spain
+1.0,Iago Herrerín,Goalkeeper,35,Spain,Sestao River,2022,500000.0,Spain
+42.0,Emilio Bernad,Goalkeeper,23,Spain,Racing Ferrol,2022,300000.0,Spain
+13.0,Cristian Rivero,Goalkeeper,25,Spain,Albacete Balompié,2022,200000.0,Spain
+26.0,Charlie Pérez,Goalkeeper,21,Spain,Real Unión Club,2022,25000.0,Spain
+12.0,Mouctar Diakhaby,Centre-Back,26,"['Guinea', 'France']",Valencia CF,2022,6000000.0,Guinea
+15.0,Cenk Özkacar,Centre-Back,22,Türkiye,Real Valladolid CF,2022,5000000.0,Türkiye
+24.0,Eray Cömert,Centre-Back,25,"['Switzerland', 'Türkiye']",Real Valladolid CF,2022,3500000.0,Switzerland
+5.0,Gabriel Paulista,Centre-Back,32,"['Brazil', 'Spain']",Besiktas JK,2022,2500000.0,Brazil
+33.0,Cristhian Mosquera,Centre-Back,19,"['Spain', 'Colombia']",Valencia CF,2022,1000000.0,Spain
+34.0,Rubén Iranzo,Centre-Back,20,Spain,Valencia Mestalla,2022,200000.0,Spain
+14.0,José Gayà,Left-Back,28,Spain,Valencia CF,2022,30000000.0,Spain
+21.0,Jesús Vázquez,Left-Back,20,Spain,Valencia CF,2022,3000000.0,Spain
+3.0,Toni Lato,Left-Back,25,Spain,RCD Mallorca,2022,2500000.0,Spain
+2.0,Thierry Correia,Right-Back,24,"['Portugal', 'Cape Verde']",Valencia CF,2022,8000000.0,Portugal
+20.0,Dimitri Foulquier,Right-Back,30,"['Guadeloupe', 'France']",Valencia CF,2022,2500000.0,Guadeloupe
+6.0,Hugo Guillamón,Defensive Midfield,23,Spain,Valencia CF,2022,14000000.0,Spain
+8.0,Uroš Račić,Defensive Midfield,25,Serbia,SC Braga,2022,6500000.0,Serbia
+10.0,Carlos Soler,Central Midfield,26,Spain,West Ham United,2022,25000000.0,Spain
+4.0,Yunus Musah,Central Midfield,20,"['United States', 'England']",AC Milan,2022,18000000.0,United States
+17.0,Nico González,Central Midfield,21,Spain,Manchester City,2022,10000000.0,Spain
+8.0,Ilaix Moriba,Central Midfield,20,"['Guinea', 'Spain']",Celta de Vigo,2022,4000000.0,Guinea
+36.0,Javi Guerra,Central Midfield,20,Spain,Valencia CF,2022,2000000.0,Spain
+18.0,Koba Koindredi,Central Midfield,21,"['France', 'Neukaledonien']",FC Lausanne-Sport,2022,1000000.0,France
+41.0,Tiago Ribeiro,Central Midfield,21,Portugal,CD Feirense,2022,200000.0,Portugal
+35.0,Yellu Santiago,Central Midfield,19,Spain,Getafe CF,2022,100000.0,Spain
+18.0,André Almeida,Attacking Midfield,23,Portugal,Valencia CF,2022,20000000.0,Portugal
+9.0,Justin Kluivert,Attacking Midfield,24,"['Netherlands', 'Suriname']",AFC Bournemouth,2022,14000000.0,Netherlands
+16.0,Samuel Lino,Left Winger,23,Brazil,Atlético de Madrid,2022,16000000.0,Brazil
+11.0,Samu Castillejo,Right Winger,28,Spain,Johor Darul Ta'zim,2022,6000000.0,Spain
+40.0,Diego López,Right Winger,21,Spain,Valencia CF,2022,1500000.0,Spain
+29.0,Fran Pérez,Right Winger,20,Spain,Valencia CF,2022,500000.0,Spain
+21.0,Manu Vallejo,Second Striker,26,Spain,Racing Ferrol,2022,2400000.0,Spain
+9.0,Maxi Gómez,Centre-Forward,26,Uruguay,Defensor Sporting Club,2022,7000000.0,Uruguay
+19.0,Hugo Duro,Centre-Forward,23,Spain,Valencia CF,2022,4000000.0,Spain
+7.0,Edinson Cavani,Centre-Forward,36,"['Uruguay', 'Italy']",CA Boca Juniors,2022,3000000.0,Uruguay
+22.0,Marcos André,Centre-Forward,26,"['Brazil', 'Spain']",Real Valladolid CF,2022,2500000.0,Brazil
+46.0,Alberto Marí,Centre-Forward,21,Spain,Real Zaragoza,2022,800000.0,Spain
+43.0,Mario Dominguez,Centre-Forward,19,Spain,Valencia Mestalla,2022,50000.0,Spain
+25.0,Giorgi Mamardashvili,Goalkeeper,23,Georgia,Valencia CF,2023,35000000.0,Georgia
+1.0,Jaume Doménech,Goalkeeper,33,Spain,Valencia CF,2023,800000.0,Spain
+13.0,Cristian Rivero,Goalkeeper,26,Spain,Albacete Balompié,2023,200000.0,Spain
+3.0,Cristhian Mosquera,Centre-Back,20,"['Spain', 'Colombia']",Valencia CF,2023,30000000.0,Spain
+34.0,Yarek Gasiorowski,Centre-Back,19,"['Spain', 'Poland']",Valencia CF,2023,15000000.0,Spain
+15.0,Cenk Özkacar,Centre-Back,23,Türkiye,Real Valladolid CF,2023,4000000.0,Türkiye
+4.0,Mouctar Diakhaby,Centre-Back,27,"['Guinea', 'France']",Valencia CF,2023,2000000.0,Guinea
+5.0,Gabriel Paulista,Centre-Back,33,"['Brazil', 'Spain']",Besiktas JK,2023,2000000.0,Brazil
+,César Tárrega,Centre-Back,22,Spain,Valencia CF,2023,1500000.0,Spain
+,Rubén Iranzo,Centre-Back,21,Spain,Valencia Mestalla,2023,300000.0,Spain
+14.0,José Gayà,Left-Back,29,Spain,Valencia CF,2023,25000000.0,Spain
+21.0,Jesús Vázquez,Left-Back,21,Spain,Valencia CF,2023,3000000.0,Spain
+12.0,Thierry Correia,Right-Back,25,"['Portugal', 'Cape Verde']",Valencia CF,2023,6000000.0,Portugal
+20.0,Dimitri Foulquier,Right-Back,31,"['Guadeloupe', 'France']",Valencia CF,2023,2500000.0,Guadeloupe
+18.0,Pepelu,Defensive Midfield,25,Spain,Valencia CF,2023,22000000.0,Spain
+6.0,Hugo Guillamón,Defensive Midfield,24,Spain,Valencia CF,2023,8000000.0,Spain
+8.0,Javi Guerra,Central Midfield,21,Spain,Valencia CF,2023,20000000.0,Spain
+,Ali Fadal,Central Midfield,20,Ghana,Colorado Rapids,2023,100000.0,Ghana
+,Javi Navarro,Central Midfield,20,Spain,Valencia Mestalla,2023,25000.0,Spain
+10.0,André Almeida,Attacking Midfield,24,Portugal,Valencia CF,2023,15000000.0,Portugal
+19.0,Selim Amallah,Attacking Midfield,27,"['Morocco', 'Belgium']",Real Valladolid CF,2023,1500000.0,Morocco
+27.0,Pablo Gozálbez,Attacking Midfield,23,Spain,FC Arouca,2023,800000.0,Spain
+,Martín Tejón,Attacking Midfield,20,Spain,Valencia Mestalla,2023,100000.0,Spain
+7.0,Sergi Canós,Left Winger,27,Spain,Valencia CF,2023,2500000.0,Spain
+,Marco Camus,Left Winger,22,Spain,Valencia Mestalla,2023,300000.0,Spain
+16.0,Diego López,Right Winger,22,Spain,Valencia CF,2023,14000000.0,Spain
+23.0,Fran Pérez,Right Winger,21,Spain,Valencia CF,2023,8000000.0,Spain
+11.0,Peter Federico,Right Winger,21,"['Dominican Republic', 'Spain']",Getafe CF,2023,3000000.0,Dominican Republic
+,David Otorbi,Right Winger,16,"['Spain', 'Nigeria']",Valencia Mestalla,2023,500000.0,Spain
+,Hugo González,Right Winger,21,Spain,RC Celta Fortuna,2023,300000.0,Spain
+9.0,Hugo Duro,Centre-Forward,24,Spain,Valencia CF,2023,16000000.0,Spain
+17.0,Roman Yaremchuk,Centre-Forward,28,Ukraine,Olympiacos Piraeus,2023,3500000.0,Ukraine
+22.0,Alberto Marí,Centre-Forward,22,Spain,Real Zaragoza,2023,1500000.0,Spain
+,Mario Dominguez,Centre-Forward,20,Spain,Valencia Mestalla,2023,200000.0,Spain
+,Joselu Pérez,Centre-Forward,20,Spain,Valencia Mestalla,2023,100000.0,Spain
+25.0,Giorgi Mamardashvili,Goalkeeper,24,Georgia,,2024,30000000.0,Georgia
+13.0,Stole Dimitrievski,Goalkeeper,31,"['North Macedonia', 'Spain']",,2024,2500000.0,North Macedonia
+1.0,Jaume Doménech,Goalkeeper,34,Spain,,2024,400000.0,Spain
+3.0,Cristhian Mosquera,Centre-Back,20,"['Spain', 'Colombia']",,2024,30000000.0,Spain
+15.0,César Tárrega,Centre-Back,23,Spain,,2024,10000000.0,Spain
+24.0,Yarek Gasiorowski,Centre-Back,20,"['Spain', 'Poland']",,2024,7500000.0,Spain
+4.0,Mouctar Diakhaby,Centre-Back,28,"['Guinea', 'France']",,2024,2000000.0,Guinea
+14.0,José Gayà,Left-Back,30,Spain,,2024,9000000.0,Spain
+21.0,Jesús Vázquez,Left-Back,22,Spain,,2024,3000000.0,Spain
+19.0,Max Aarons,Right-Back,25,"['England', 'Jamaica']",,2024,6000000.0,England
+,Thierry Correia,Right-Back,26,"['Portugal', 'Cape Verde']",,2024,3000000.0,Portugal
+20.0,Dimitri Foulquier,Right-Back,32,"['Guadeloupe', 'France']",,2024,1500000.0,Guadeloupe
+5.0,Enzo Barrenechea,Defensive Midfield,24,Argentina,,2024,10000000.0,Argentina
+18.0,Pepelu,Defensive Midfield,26,Spain,,2024,9000000.0,Spain
+6.0,Hugo Guillamón,Defensive Midfield,25,Spain,,2024,2500000.0,Spain
+8.0,Javi Guerra,Central Midfield,22,Spain,,2024,25000000.0,Spain
+10.0,André Almeida,Attacking Midfield,25,Portugal,,2024,10000000.0,Portugal
+17.0,Iván Jaime,Attacking Midfield,24,Spain,,2024,5000000.0,Spain
+32.0,Martín Tejón,Attacking Midfield,21,Spain,,2024,500000.0,Spain
+22.0,Luis Rioja,Left Winger,31,Spain,,2024,2000000.0,Spain
+7.0,Sergi Canós,Left Winger,28,Spain,,2024,1000000.0,Spain
+16.0,Diego López,Right Winger,23,Spain,,2024,15000000.0,Spain
+23.0,Fran Pérez,Right Winger,22,Spain,,2024,3000000.0,Spain
+9.0,Hugo Duro,Centre-Forward,25,Spain,,2024,14000000.0,Spain
+12.0,Umar Sadiq,Centre-Forward,28,Nigeria,,2024,5000000.0,Nigeria
+11.0,Rafa Mir,Centre-Forward,27,Spain,,2024,800000.0,Spain
