@@ -225,13 +225,24 @@ def clean_merged_data(df_merged: pd.DataFrame) -> pd.DataFrame:
     # Remove duplicate columns
     df_merged = remove_duplicate_columns(df_merged)
     
-    # Reorder columns to put Player and Season first
+    # Reorder columns in specific order: Player, Season, 'Nation', 'Nationality', 'Pos', 'Position', then all others
     if 'Player' in df_merged.columns and 'Season' in df_merged.columns:
-        # Get all columns except Player and Season
-        other_columns = [col for col in df_merged.columns if col not in ['Player', 'Season']]
-        # Reorder: Player, Season, then all other columns
-        df_merged = df_merged[['Player', 'Season'] + other_columns]
-        print(f"Reordered columns: Player and Season first")
+        # Define the priority order for columns
+        priority_columns = ['Player', 'Season', 'Nation', 'Nationality', 'Pos', 'Position']
+        
+        # Get columns that exist in the dataframe in priority order
+        ordered_columns = []
+        for col in priority_columns:
+            if col in df_merged.columns:
+                ordered_columns.append(col)
+        
+        # Add all remaining columns that weren't in the priority list
+        remaining_columns = [col for col in df_merged.columns if col not in priority_columns]
+        ordered_columns.extend(remaining_columns)
+        
+        # Reorder the dataframe
+        df_merged = df_merged[ordered_columns]
+        print(f"Reordered columns: {ordered_columns[:6]}... (and {len(remaining_columns)} others)")
     
     # Sort by player name and then by season chronologically
     if 'Player' in df_merged.columns and 'Season' in df_merged.columns:
