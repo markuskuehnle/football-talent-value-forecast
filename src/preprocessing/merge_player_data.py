@@ -166,13 +166,42 @@ def merge_fbref_transfermarkt(fbref_df: pd.DataFrame, tm_df: pd.DataFrame) -> pd
     return df_merged
 
 
+def remove_duplicate_columns(df_merged: pd.DataFrame) -> pd.DataFrame:
+    """Remove duplicate columns, keeping only the original columns without suffixes."""
+    
+    # Find all columns that have the _player_* pattern (these are duplicates from joins)
+    duplicate_columns = []
+    original_columns = []
+    
+    for col in df_merged.columns:
+        if '_player_' in col:
+            # This is a duplicate column from a join
+            duplicate_columns.append(col)
+            # Extract the original column name (before the _player_ suffix)
+            original_name = col.split('_player_')[0]
+            if original_name not in original_columns:
+                original_columns.append(original_name)
+        else:
+            # This is an original column
+            original_columns.append(col)
+    
+    # Remove all duplicate columns
+    if duplicate_columns:
+        df_merged = df_merged.drop(columns=duplicate_columns)
+        print(f"Removed {len(duplicate_columns)} duplicate columns with _player_* pattern")
+        print(f"Removed columns: {duplicate_columns}")
+    
+    return df_merged
+
+
 def clean_merged_data(df_merged: pd.DataFrame) -> pd.DataFrame:
     """Clean the merged data by dropping unwanted columns and converting data types."""
     
-    # Drop Nation column if it exists
-    if 'Nation' in df_merged.columns:
-        df_merged = df_merged.drop(columns=['Nation'])
-        print(f"Dropped 'Nation' column")
+    # Drop all Nation_* columns but keep the original Nation column
+    nation_columns_to_drop = [col for col in df_merged.columns if col.startswith('Nation_')]
+    if nation_columns_to_drop:
+        df_merged = df_merged.drop(columns=nation_columns_to_drop)
+        print(f"Dropped Nation_* columns: {nation_columns_to_drop}")
     
     # Drop all Age columns except Age_x, then rename Age_x to Age
     age_columns = [col for col in df_merged.columns if col.startswith('Age') and col != 'Age_x']
@@ -193,10 +222,26 @@ def clean_merged_data(df_merged: pd.DataFrame) -> pd.DataFrame:
         df_merged['Age'] = df_merged['Age'].fillna(-1).astype(int)
         print(f"Converted 'Age' to integer (NaN values set to -1)")
     
+    # Remove duplicate columns
+    df_merged = remove_duplicate_columns(df_merged)
+    
+    # Reorder columns to put Player and Season first
+    if 'Player' in df_merged.columns and 'Season' in df_merged.columns:
+        # Get all columns except Player and Season
+        other_columns = [col for col in df_merged.columns if col not in ['Player', 'Season']]
+        # Reorder: Player, Season, then all other columns
+        df_merged = df_merged[['Player', 'Season'] + other_columns]
+        print(f"Reordered columns: Player and Season first")
+    
     # Sort by player name and then by season chronologically
     if 'Player' in df_merged.columns and 'Season' in df_merged.columns:
         df_merged = df_merged.sort_values(['Player', 'Season'], ascending=[True, True])
         print(f"Sorted dataframe by Player name and Season chronologically")
+    
+    # Drop NormalizedName column LAST (after all matching and processing is complete)
+    if 'NormalizedName' in df_merged.columns:
+        df_merged = df_merged.drop(columns=['NormalizedName'])
+        print(f"Dropped 'NormalizedName' column")
     
     return df_merged
 
