@@ -1,0 +1,31 @@
+Unnamed: 0_level_0,Unnamed: 1_level_0,Unnamed: 2_level_0,Unnamed: 3_level_0,Unnamed: 4_level_0,Standard,Standard,Standard,Standard,Standard,Standard,Standard,Standard,Standard,Standard,Standard,Standard,Expected,Expected,Expected,Expected,Expected,Unnamed: 22_level_0
+Player,Nation,Pos,Age,90s,Gls,Sh,SoT,SoT%,Sh/90,SoT/90,G/Sh,G/SoT,Dist,FK,PK,PKatt,xG,npxG,npxG/Sh,G-xG,np:G-xG,Matches
+Nahuel Molina,ar ARG,DF,24.0,31.9,4,21,6,28.6,0.66,0.19,0.19,0.67,17.0,0,0,0,2.6,2.6,0.13,1.4,1.4,Matches
+Antoine Griezmann,fr FRA,"FW,MF",31.0,31.8,15,111,44,39.6,3.49,1.39,0.14,0.34,17.6,5,0,0,12.3,12.3,0.11,2.7,2.7,Matches
+Koke,es ESP,MF,30.0,28.3,0,16,1,6.3,0.57,0.04,0.0,0.0,22.9,0,0,0,0.7,0.7,0.05,-0.7,-0.7,Matches
+Jan Oblak,si SVN,GK,29.0,27.7,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0,Matches
+José María Giménez,uy URU,DF,27.0,26.9,2,22,8,36.4,0.82,0.3,0.09,0.25,14.1,0,0,0,2.0,2.0,0.09,0.0,0.0,Matches
+Yannick Carrasco,be BEL,"DF,MF",28.0,25.7,7,66,21,31.8,2.56,0.82,0.09,0.29,17.2,2,1,1,8.0,7.2,0.11,-1.0,-1.2,Matches
+Axel Witsel,be BEL,"DF,MF",33.0,25.1,0,9,0,0.0,0.36,0.0,0.0,,15.0,0,0,0,0.6,0.6,0.07,-0.6,-0.6,Matches
+Mario Hermoso,es ESP,DF,27.0,23.4,3,15,5,33.3,0.64,0.21,0.2,0.6,16.1,0,0,0,2.1,2.1,0.15,0.9,0.9,Matches
+Rodrigo De Paul,ar ARG,MF,28.0,21.4,2,21,5,23.8,0.98,0.23,0.1,0.4,24.5,1,0,0,1.6,1.6,0.07,0.4,0.4,Matches
+Álvaro Morata,es ESP,FW,29.0,21.1,13,71,32,45.1,3.36,1.52,0.18,0.41,12.2,0,0,0,11.9,11.9,0.17,1.1,1.1,Matches
+Stefan Savić,me MNE,DF,31.0,21.6,0,2,1,50.0,0.09,0.05,0.0,0.0,13.0,0,0,0,0.2,0.2,0.09,-0.2,-0.2,Matches
+Reinildo Mandava,mz MOZ,DF,28.0,20.6,0,6,0,0.0,0.29,0.0,0.0,,22.7,0,0,0,0.4,0.4,0.06,-0.4,-0.4,Matches
+Marcos Llorente,es ESP,"MF,DF",27.0,18.9,1,24,9,37.5,1.27,0.48,0.04,0.11,17.9,0,0,0,2.1,2.1,0.09,-1.1,-1.1,Matches
+Thomas Lemar,fr FRA,MF,26.0,13.9,1,13,6,46.2,0.93,0.43,0.08,0.17,21.1,0,0,0,0.9,0.9,0.07,0.1,0.1,Matches
+Ángel Correa,ar ARG,"FW,MF",27.0,16.2,9,43,18,41.9,2.66,1.11,0.21,0.5,15.3,0,0,0,7.1,7.1,0.17,1.9,1.9,Matches
+Saúl Ñíguez,es ESP,"MF,DF",27.0,12.2,3,21,9,42.9,1.72,0.74,0.14,0.33,17.2,0,0,0,2.4,2.4,0.11,0.6,0.6,Matches
+Geoffrey Kondogbia,cf CTA,MF,29.0,11.2,0,11,0,0.0,0.98,0.0,0.0,,19.7,0,0,0,0.7,0.7,0.07,-0.7,-0.7,Matches
+Ivo Grbić,hr CRO,GK,26.0,10.2,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0,Matches
+João Félix,pt POR,"FW,MF",22.0,7.2,4,26,12,46.2,3.6,1.66,0.15,0.33,18.9,1,0,0,2.6,2.6,0.1,1.4,1.4,Matches
+Pablo Barrios,es ESP,MF,19.0,8.0,0,12,3,25.0,1.49,0.37,0.0,0.0,21.7,0,0,0,0.5,0.5,0.04,-0.5,-0.5,Matches
+Memphis,nl NED,FW,28.0,3.0,4,11,5,45.5,3.67,1.67,0.36,0.8,11.8,0,0,0,3.0,3.0,0.27,1.0,1.0,Matches
+Matheus Cunha,br BRA,"FW,MF",23.0,4.2,0,12,8,66.7,2.86,1.91,0.0,0.0,16.1,0,0,0,1.4,1.4,0.12,-1.4,-1.4,Matches
+Sergio Reguilón,es ESP,DF,25.0,3.4,0,3,1,33.3,0.87,0.29,0.0,0.0,17.7,0,0,0,0.2,0.2,0.08,-0.2,-0.2,Matches
+Felipe,br BRA,DF,33.0,2.2,0,1,0,0.0,0.46,0.0,0.0,,10.6,0,0,0,0.0,0.0,0.03,0.0,0.0,Matches
+Carlos Martín,es ESP,"FW,MF",20.0,0.3,0,1,1,100.0,3.21,3.21,0.0,0.0,16.9,0,0,0,0.1,0.1,0.06,-0.1,-0.1,Matches
+Matt Doherty,ie IRL,DF,30.0,0.2,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0,Matches
+Antonio Gomis,es ESP,GK,19.0,0.1,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0,Matches
+Squad Total,,,28.5,38.0,68,538,195,36.2,14.16,5.13,0.12,0.34,17.0,9,1,1,61.9,61.1,0.12,6.1,5.9,
+Opponent Total,,,27.0,38.0,33,433,124,28.6,11.39,3.26,0.07,0.23,18.6,18,4,5,41.1,37.2,0.09,-8.1,-8.2,
