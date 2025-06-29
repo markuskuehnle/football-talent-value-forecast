@@ -84,6 +84,26 @@ class FBrefScraper:
         # If no season found, return current season
         return self.current_season
     
+    def _build_fbref_url(self, squad_id: str, team_slug: str, season: str) -> str:
+        """Build the correct FBref URL for a team and season.
+        
+        Args:
+            squad_id: FBref squad ID
+            team_slug: Team slug (e.g., "Real-Madrid-Stats")
+            season: Season identifier (e.g., "2425")
+            
+        Returns:
+            Complete FBref URL
+        """
+        # For current season (2425), use the season path format
+        if season == "2425":
+            return f"https://fbref.com/en/squads/{squad_id}/2024-2025/{team_slug}"
+        else:
+            # For past seasons, use the standard format
+            start_year = f"20{season[:2]}"
+            end_year = f"20{season[2:]}"
+            return f"https://fbref.com/en/squads/{squad_id}/{start_year}-{end_year}/{team_slug}"
+    
     def _calculate_estimated_time(self, num_tables: int) -> float:
         """Calculate estimated time for scraping in seconds.
         

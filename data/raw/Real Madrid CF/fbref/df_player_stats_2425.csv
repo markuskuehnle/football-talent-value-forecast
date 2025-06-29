@@ -1,0 +1,42 @@
+Unnamed: 0_level_0,Unnamed: 1_level_0,Unnamed: 2_level_0,Unnamed: 3_level_0,Unnamed: 4_level_0,Playing Time,Playing Time,Playing Time,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Expected,Expected,Expected,Expected,Progression,Progression,Progression,Per 90 Minutes,Per 90 Minutes,Per 90 Minutes,Per 90 Minutes,Per 90 Minutes,Per 90 Minutes,Per 90 Minutes,Per 90 Minutes,Per 90 Minutes,Per 90 Minutes,Unnamed: 33_level_0
+Player,Nation,Pos,Age,MP,Starts,Min,90s,Gls,Ast,G+A,G-PK,PK,PKatt,CrdY,CrdR,xG,npxG,xAG,npxG+xAG,PrgC,PrgP,PrgR,Gls,Ast,G+A,G-PK,G+A-PK,xG,xAG,xG+xAG,npxG,npxG+xAG,Matches
+Federico Valverde,uy URU,"MF,DF",26,36,34,3032,33.7,6,4,10,6,0,0,4,0,2.7,2.7,3.1,5.8,66,226,76,0.18,0.12,0.30,0.18,0.30,0.08,0.09,0.17,0.08,0.17,Matches
+Kylian Mbappé,fr FRA,FW,25,34,34,2907,32.3,31,3,34,24,7,9,3,1,25.9,18.6,7.7,26.3,150,140,386,0.96,0.09,1.05,0.74,0.84,0.80,0.24,1.04,0.58,0.81,Matches
+Aurélien Tchouaméni,fr FRA,"DF,MF",24,32,31,2689,29.9,0,0,0,0,0,0,5,0,1.7,1.7,0.6,2.2,19,154,13,0.00,0.00,0.00,0.00,0.00,0.06,0.02,0.07,0.06,0.07,Matches
+Thibaut Courtois,be BEL,GK,32,30,30,2700,30.0,0,0,0,0,0,0,1,0,0.0,0.0,0.1,0.1,0,0,0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Matches
+Jude Bellingham,eng ENG,MF,21,31,29,2488,27.6,9,8,17,8,1,2,5,1,11.4,9.9,3.9,13.7,74,199,143,0.33,0.29,0.61,0.29,0.58,0.41,0.14,0.55,0.36,0.50,Matches
+Antonio Rüdiger,de GER,DF,31,29,26,2291,25.5,0,0,0,0,0,0,3,0,1.7,1.7,0.5,2.3,20,94,4,0.00,0.00,0.00,0.00,0.00,0.07,0.02,0.09,0.07,0.09,Matches
+Lucas Vázquez,es ESP,DF,33,32,25,2189,24.3,1,5,6,1,0,0,4,0,1.4,1.4,4.7,6.1,37,99,194,0.04,0.21,0.25,0.04,0.25,0.06,0.19,0.25,0.06,0.25,Matches
+Vinicius Júnior,br BRA,FW,24,30,24,2253,25.0,11,8,19,9,2,3,8,1,10.4,8.2,8.0,16.2,169,85,256,0.44,0.32,0.76,0.36,0.68,0.41,0.32,0.73,0.33,0.65,Matches
+Fran Garcia,es ESP,DF,24,31,24,2171,24.1,0,2,2,0,0,0,0,0,0.9,0.9,1.8,2.7,78,119,177,0.00,0.08,0.08,0.00,0.08,0.04,0.08,0.11,0.04,0.11,Matches
+Rodrygo,br BRA,"FW,MF",23,30,22,1928,21.4,6,5,11,6,0,0,0,0,4.0,3.9,3.0,6.9,113,108,253,0.28,0.23,0.51,0.28,0.51,0.19,0.14,0.33,0.18,0.32,Matches
+Raúl Asencio,es ESP,DF,21,23,18,1670,18.6,0,1,1,0,0,0,3,0,0.1,0.1,0.6,0.7,5,27,4,0.00,0.05,0.05,0.00,0.05,0.01,0.03,0.04,0.01,0.04,Matches
+Luka Modrić,hr CRO,MF,38,35,17,1827,20.3,2,6,8,2,0,0,7,0,1.6,1.6,7.0,8.5,62,208,63,0.10,0.30,0.39,0.10,0.39,0.08,0.34,0.42,0.08,0.42,Matches
+Brahim Díaz,ma MAR,"FW,MF",24,31,16,1385,15.4,4,2,6,4,0,0,0,0,5.3,5.3,3.3,8.6,39,74,110,0.26,0.13,0.39,0.26,0.39,0.34,0.22,0.56,0.34,0.56,Matches
+Dani Ceballos,es ESP,MF,27,23,15,1215,13.5,0,0,0,0,0,0,4,0,0.4,0.4,1.6,2.0,42,150,17,0.00,0.00,0.00,0.00,0.00,0.03,0.12,0.15,0.03,0.15,Matches
+Arda Güler,tr TUR,"MF,FW",19,28,14,1250,13.9,3,4,7,3,0,0,1,0,3.3,3.3,4.5,7.7,34,93,86,0.22,0.29,0.50,0.22,0.50,0.24,0.32,0.56,0.24,0.56,Matches
+Ferland Mendy,fr FRA,DF,29,14,12,1005,11.2,0,1,1,0,0,0,1,1,0.0,0.0,0.5,0.5,12,36,40,0.00,0.09,0.09,0.00,0.09,0.00,0.05,0.05,0.00,0.05,Matches
+Eduardo Camavinga,fr FRA,"MF,DF",21,19,11,1102,12.2,1,2,3,1,0,0,2,0,0.4,0.4,0.8,1.2,26,61,31,0.08,0.16,0.25,0.08,0.25,0.04,0.06,0.10,0.04,0.10,Matches
+Éder Militão,br BRA,DF,26,12,11,938,10.4,1,1,2,1,0,0,2,0,0.6,0.6,0.5,1.1,7,46,1,0.10,0.10,0.19,0.10,0.19,0.06,0.05,0.11,0.06,0.11,Matches
+Andriy Lunin,ua UKR,GK,25,7,7,630,7.0,0,1,1,0,0,0,0,0,0.0,0.0,0.9,0.9,0,0,0,0.00,0.14,0.14,0.00,0.14,0.00,0.13,0.13,0.00,0.13,Matches
+Dani Carvajal,es ESP,DF,32,8,7,609,6.8,1,0,1,1,0,0,1,0,1.3,1.3,0.2,1.5,13,27,48,0.15,0.00,0.15,0.15,0.15,0.19,0.03,0.22,0.19,0.22,Matches
+David Alaba,at AUT,DF,32,7,4,317,3.5,0,0,0,0,0,0,1,0,0.0,0.0,0.1,0.1,2,7,4,0.00,0.00,0.00,0.00,0.00,0.00,0.02,0.02,0.00,0.02,Matches
+Endrick,br BRA,FW,18,22,3,363,4.0,1,0,1,1,0,0,1,0,2.5,2.5,0.5,3.0,12,8,32,0.25,0.00,0.25,0.25,0.25,0.61,0.12,0.73,0.61,0.73,Matches
+Jacobo Ramón,es ESP,DF,19,3,2,204,2.3,1,0,1,1,0,0,1,0,0.2,0.2,0.2,0.4,0,1,2,0.44,0.00,0.44,0.44,0.44,0.07,0.09,0.16,0.07,0.16,Matches
+Jesús Vallejo,es ESP,DF,27,4,1,138,1.5,0,1,1,0,0,0,0,0,0.0,0.0,0.1,0.1,0,5,1,0.00,0.65,0.65,0.00,0.65,0.00,0.08,0.08,0.00,0.08,Matches
+Fran,es ESP,GK,19,1,1,90,1.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Matches
+,,,,,Playing Time,Playing Time,Playing Time,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Expected,Expected,Expected,Expected,Progression,Progression,Progression,Per 90 Minutes,Per 90 Minutes,Per 90 Minutes,Per 90 Minutes,Per 90 Minutes,Per 90 Minutes,Per 90 Minutes,Per 90 Minutes,Per 90 Minutes,Per 90 Minutes,
+Player,Nation,Pos,Age,MP,Starts,Min,90s,Gls,Ast,G+A,G-PK,PK,PKatt,CrdY,CrdR,xG,npxG,xAG,npxG+xAG,PrgC,PrgP,PrgR,Gls,Ast,G+A,G-PK,G+A-PK,xG,xAG,xG+xAG,npxG,npxG+xAG,Matches
+Gonzalo García,es ESP,"FW,DF",20,3,0,56,0.6,0,1,1,0,0,0,0,0,0.5,0.5,1.0,1.5,0,0,3,0.00,1.61,1.61,0.00,1.61,0.79,1.56,2.35,0.79,2.35,Matches
+Víctor Muñoz,es ESP,"FW,DF",21,2,0,36,0.4,0,0,0,0,0,0,0,0,0.5,0.5,0.0,0.5,3,0,9,0.00,0.00,0.00,0.00,0.00,1.23,0.00,1.23,1.23,1.23,Matches
+Chema,es ESP,MF,19,2,0,12,0.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Matches
+Lorenzo Aguado,es ESP,DF,21,2,0,5,0.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Matches
+Daniel Yáñez,es ESP,FW,17,1,0,2,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Matches
+Diego Aguado,es ESP,DF,17,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matches
+David Jiménez,es ESP,DF,20,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matches
+Youssef Lekhedim,es ESP,DF,18,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matches
+Sergio Mestre,es ESP,GK,19,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matches
+Mario Rivas,es ESP,DF,17,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matches
+Victor Valdepeñas,es ESP,DF,17,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Matches
+Squad Total,,,26.6,38,418,3420,38.0,78,55,133,68,10,14,57,4,75.3,64.5,54.6,119.0,983,1967,1953,2.05,1.45,3.50,1.79,3.24,1.98,1.44,3.42,1.70,3.13,
+Opponent Total,,,26.7,38,418,3420,38.0,37,27,64,34,3,3,89,6,42.8,40.8,32.0,72.8,648,1168,1155,0.97,0.71,1.68,0.89,1.61,1.13,0.84,1.97,1.07,1.92,
