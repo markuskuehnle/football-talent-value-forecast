@@ -18,6 +18,7 @@ dependencies = [
     "openpyxl>=3.1.5",
     "pytest>=7.0.0",
     "selenium>=4.34.0",
+    "scikit-learn>=1.7.0",
 ]
 
 [project.optional-dependencies]
