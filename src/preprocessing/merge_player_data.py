@@ -262,23 +262,26 @@ def analyze_missing_market_values(df_merged: pd.DataFrame) -> Dict[str, any]:
     
     missing_market_values = df_merged[df_merged['MarketValueEuro'].isna()]
     
+    # Handle NaN values in Player column by filling with a default value
+    player_column_filled = missing_market_values['Player'].fillna('Unknown')
+    
     # 1. System/Total rows
-    system_rows = missing_market_values[missing_market_values['Player'].str.contains('Total|Squad|Opponent', case=False)]
+    system_rows = missing_market_values[player_column_filled.str.contains('Total|Squad|Opponent', case=False)]
     
     # 2. Incomplete names
-    incomplete_names = missing_market_values[missing_market_values['Player'].str.len() < 5]
+    incomplete_names = missing_market_values[player_column_filled.str.len() < 5]
     
     # 3. New players in latest season (likely don't have market values yet)
     latest_season = df_merged['Season'].max()
     new_players_latest = missing_market_values[
         (missing_market_values['Season'] == latest_season) & 
-        (~missing_market_values['Player'].str.contains('Total|Squad|Opponent', case=False))
+        (~player_column_filled.str.contains('Total|Squad|Opponent', case=False))
     ]
     
     # 4. Players with name matching issues
     name_matching_issues = missing_market_values[
-        (~missing_market_values['Player'].str.contains('Total|Squad|Opponent', case=False)) &
-        (missing_market_values['Player'].str.len() >= 5) &
+        (~player_column_filled.str.contains('Total|Squad|Opponent', case=False)) &
+        (player_column_filled.str.len() >= 5) &
         (missing_market_values['Season'] != latest_season)
     ]
     
@@ -303,8 +306,10 @@ def filter_merged_data(df_merged: pd.DataFrame, remove_system_rows: bool = True,
     df_filtered = df_merged.copy()
     
     if remove_system_rows:
+        # Handle NaN values in Player column by filling with a default value
+        player_column_filled = df_filtered['Player'].fillna('Unknown')
         # Remove system/total rows
-        df_filtered = df_filtered[~df_filtered['Player'].str.contains('Total|Squad|Opponent', case=False)]
+        df_filtered = df_filtered[~player_column_filled.str.contains('Total|Squad|Opponent', case=False)]
         print(f"Removed system rows: {len(df_merged) - len(df_filtered)} rows")
     
     if only_with_market_values:
@@ -333,24 +338,61 @@ def run_merge_pipeline(team_name: str, seasons: List[str],
         Tuple of (merged_dataframe, analysis_results)
     """
     
-    # Try different possible data directory paths
-    possible_paths = [
-        Path("data"),  # From project root
+    # Try different possible data directory paths based on current working directory
+    import os
+    current_dir = Path.cwd()
+    print(f"Current working directory: {current_dir}")
+    
+    # First, try to find the project root by looking for common project files
+    project_root = None
+    search_dir = current_dir
+    for _ in range(5):  # Search up to 5 levels up
+        if (search_dir / "pyproject.toml").exists() or (search_dir / "README.md").exists():
+            project_root = search_dir
+            break
+        search_dir = search_dir.parent
+    
+    possible_paths = []
+    
+    # Prioritize project root data directory
+    if project_root:
+        project_data_dir = project_root / "data"
+        possible_paths.append(project_data_dir)
+        print(f"Found project root: {project_root}")
+    
+    # Then try other relative paths
+    possible_paths.extend([
         Path("../data"),  # From notebooks directory
         Path("../../data"),  # From other subdirectories
-    ]
+        Path(current_dir.parent / "data"),  # From any subdirectory
+        Path(current_dir.parent.parent / "data"),  # From deeper subdirectories
+    ])
+    
+    # Only try current directory data as last resort (to avoid notebooks/data)
+    possible_paths.append(Path("data"))
+    
+    print(f"Trying possible paths: {[str(p) for p in possible_paths]}")
     
     base_dir = None
     for path in possible_paths:
+        print(f"Checking path: {path} - exists: {path.exists()}")
         if path.exists():
-            base_dir = path
-            break
+            # Verify this is the right data directory by checking for interim subdirectory
+            if (path / "interim").exists():
+                base_dir = path
+                print(f"Found data directory: {base_dir}")
+                break
+            else:
+                print(f"Path {path} exists but doesn't contain 'interim' subdirectory")
     
     if base_dir is None:
         raise FileNotFoundError(f"Data directory not found. Tried: {[str(p) for p in possible_paths]}")
     
     fbref_dir = base_dir / "interim" / team_name / "fbref"
-    tm_path = base_dir / "interim" / team_name / "transfermarkt" / f"{team_name.lower().replace(' ', '_')}_market_value_22_25.csv"
+    tm_path = base_dir / "interim" / team_name / "transfermarkt" / f"{team_name.lower().replace(' ', '_')}_2020_2024.csv"
+
+    print(f"Looking for FBref directory: {fbref_dir}")
+    print(f"Looking for Transfermarkt file: {tm_path}")
 
     # Check if directories exist
     if not fbref_dir.exists():
