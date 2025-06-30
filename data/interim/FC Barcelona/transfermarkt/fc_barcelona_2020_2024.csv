@@ -1,0 +1,148 @@
+Name,Position,Age,Nationality,Current club,Season,MarketValueEuro,PrimaryNationality
+Marc-André ter Stegen,Goalkeeper,29,Germany,FC Barcelona,2020,60000000.0,Germany
+Neto,Goalkeeper,31,Brazil,FC Barcelona,2020,6000000.0,Brazil
+Iñaki Peña,Goalkeeper,22,Spain,FC Barcelona,2020,3000000.0,Spain
+Arnau Tenas,Goalkeeper,20,Spain,FC Barcelona,2020,1500000.0,Spain
+Ronald Araujo,Centre-Back,22,Uruguay,FC Barcelona,2020,25000000.0,Uruguay
+Clément Lenglet,Centre-Back,26,France,FC Barcelona,2020,25000000.0,France
+Gerard Piqué,Centre-Back,34,Spain,FC Barcelona,2020,10000000.0,Spain
+Samuel Umtiti,Centre-Back,27,France,FC Barcelona,2020,8000000.0,France
+Santiago Ramos Mingo,Centre-Back,19,Argentina,FC Barcelona,2020,500000.0,Argentina
+Jordi Alba,Left-Back,32,Spain,FC Barcelona,2020,20000000.0,Spain
+Junior Firpo,Left-Back,24,Dominican Republic,FC Barcelona,2020,8000000.0,Dominican Republic
+Sergiño Dest,Right-Back,20,United States,FC Barcelona,2020,30000000.0,United States
+Óscar Mingueza,Right-Back,22,Spain,FC Barcelona,2020,15000000.0,Spain
+Sergio Busquets,Defensive Midfield,32,Spain,FC Barcelona,2020,9000000.0,Spain
+Matheus Fernandes,Defensive Midfield,23,Brazil,FC Barcelona,2020,1500000.0,Brazil
+Frenkie de Jong,Central Midfield,24,Netherlands,FC Barcelona,2020,90000000.0,Netherlands
+Pedri,Central Midfield,18,Spain,FC Barcelona,2020,70000000.0,Spain
+Ilaix Moriba,Central Midfield,18,Guinea,FC Barcelona,2020,25000000.0,Guinea
+Miralem Pjanić,Central Midfield,31,Bosnia-Herzegovina,FC Barcelona,2020,20000000.0,Bosnia-Herzegovina
+Riqui Puig,Central Midfield,21,Spain,FC Barcelona,2020,18000000.0,Spain
+Sergi Roberto,Central Midfield,29,Spain,FC Barcelona,2020,18000000.0,Spain
+Carles Aleñá,Central Midfield,23,Spain,FC Barcelona,2020,15000000.0,Spain
+Philippe Coutinho,Attacking Midfield,29,Brazil,FC Barcelona,2020,30000000.0,Brazil
+Rafinha,Attacking Midfield,28,Brazil,FC Barcelona,2020,15000000.0,Brazil
+Ansu Fati,Left Winger,18,Spain,FC Barcelona,2020,60000000.0,Spain
+Konrad de la Fuente,Left Winger,19,United States,FC Barcelona,2020,4000000.0,United States
+Lionel Messi,Right Winger,34,Argentina,FC Barcelona,2020,80000000.0,Argentina
+Ousmane Dembélé,Right Winger,24,France,FC Barcelona,2020,50000000.0,France
+Francisco Trincão,Right Winger,21,Portugal,FC Barcelona,2020,22000000.0,Portugal
+Álex Collado,Right Winger,22,Spain,FC Barcelona,2020,5000000.0,Spain
+Antoine Griezmann,Centre-Forward,30,France,FC Barcelona,2020,60000000.0,France
+Martin Braithwaite,Centre-Forward,30,Denmark,FC Barcelona,2020,9000000.0,Denmark
+Marc-André ter Stegen,Goalkeeper,30,Germany,FC Barcelona,2021,30000000.0,Germany
+Iñaki Peña,Goalkeeper,23,Spain,FC Barcelona,2021,4200000.0,Spain
+Neto,Goalkeeper,32,Brazil,FC Barcelona,2021,3000000.0,Brazil
+Arnau Tenas,Goalkeeper,21,Spain,FC Barcelona,2021,1500000.0,Spain
+Lazar Carević,Goalkeeper,23,Montenegro,FC Barcelona,2021,200000.0,Montenegro
+Ronald Araujo,Centre-Back,23,Uruguay,FC Barcelona,2021,50000000.0,Uruguay
+Eric García,Centre-Back,21,Spain,FC Barcelona,2021,18000000.0,Spain
+Clément Lenglet,Centre-Back,27,France,FC Barcelona,2021,12000000.0,France
+Gerard Piqué,Centre-Back,35,Spain,FC Barcelona,2021,5000000.0,Spain
+Samuel Umtiti,Centre-Back,28,France,FC Barcelona,2021,2000000.0,France
+Arnau Comas,Centre-Back,22,Spain,FC Barcelona,2021,1000000.0,Spain
+Mika Mármol,Centre-Back,20,Spain,FC Barcelona,2021,800000.0,Spain
+Jordi Alba,Left-Back,33,Spain,FC Barcelona,2021,9000000.0,Spain
+Alejandro Balde,Left-Back,18,Spain,FC Barcelona,2021,4000000.0,Spain
+Emerson Royal,Right-Back,23,Brazil,FC Barcelona,2021,25000000.0,Brazil
+Sergiño Dest,Right-Back,21,United States,FC Barcelona,2021,18000000.0,United States
+Óscar Mingueza,Right-Back,23,Spain,FC Barcelona,2021,6000000.0,Spain
+Dani Alves,Right-Back,39,Brazil,FC Barcelona,2021,1000000.0,Brazil
+Guillem Jaime,Right-Back,23,Spain,FC Barcelona,2021,300000.0,Spain
+Sergio Busquets,Defensive Midfield,33,Spain,FC Barcelona,2021,9000000.0,Spain
+Álvaro Sanz,Defensive Midfield,21,Spain,FC Barcelona,2021,700000.0,Spain
+Pedri,Central Midfield,19,Spain,FC Barcelona,2021,80000000.0,Spain
+Frenkie de Jong,Central Midfield,25,Netherlands,FC Barcelona,2021,60000000.0,Netherlands
+Gavi,Central Midfield,17,Spain,FC Barcelona,2021,60000000.0,Spain
+Nico González,Central Midfield,20,Spain,FC Barcelona,2021,20000000.0,Spain
+Miralem Pjanić,Central Midfield,32,Bosnia-Herzegovina,FC Barcelona,2021,9500000.0,Bosnia-Herzegovina
+Riqui Puig,Central Midfield,22,Spain,FC Barcelona,2021,7000000.0,Spain
+Sergi Roberto,Central Midfield,30,Spain,FC Barcelona,2021,6000000.0,Spain
+Jandro Orellana,Central Midfield,21,Spain,FC Barcelona,2021,1500000.0,Spain
+Lucas de Vega,Central Midfield,22,Brazil,FC Barcelona,2021,400000.0,Brazil
+Philippe Coutinho,Attacking Midfield,30,Brazil,FC Barcelona,2021,20000000.0,Brazil
+Ansu Fati,Left Winger,19,Spain,FC Barcelona,2021,60000000.0,Spain
+Abde Ezzalzouli,Left Winger,20,Morocco,FC Barcelona,2021,8000000.0,Morocco
+Ousmane Dembélé,Right Winger,25,France,FC Barcelona,2021,30000000.0,France
+Adama Traoré,Right Winger,26,Spain,FC Barcelona,2021,20000000.0,Spain
+Yusuf Demir,Right Winger,19,Austria,FC Barcelona,2021,5000000.0,Austria
+Ilias Akhomach,Right Winger,18,Morocco,FC Barcelona,2021,3000000.0,Morocco
+Ferran Torres,Centre-Forward,22,Spain,FC Barcelona,2021,45000000.0,Spain
+Antoine Griezmann,Centre-Forward,31,France,FC Barcelona,2021,35000000.0,France
+Memphis Depay,Centre-Forward,28,Netherlands,FC Barcelona,2021,35000000.0,Netherlands
+Pierre-Emerick Aubameyang,Centre-Forward,33,Gabon,FC Barcelona,2021,15000000.0,Gabon
+Martin Braithwaite,Centre-Forward,31,Denmark,FC Barcelona,2021,6000000.0,Denmark
+Luuk de Jong,Centre-Forward,31,Netherlands,FC Barcelona,2021,4000000.0,Netherlands
+Ferran Jutglà,Centre-Forward,23,Spain,FC Barcelona,2021,3000000.0,Spain
+Rey Manaj,Centre-Forward,25,Albania,FC Barcelona,2021,1500000.0,Albania
+Marc-André ter Stegen,Goalkeeper,31,Germany,FC Barcelona,2022,35000000.0,Germany
+Iñaki Peña,Goalkeeper,24,Spain,FC Barcelona,2022,4000000.0,Spain
+Arnau Tenas,Goalkeeper,22,Spain,FC Barcelona,2022,2000000.0,Spain
+Ronald Araujo,Centre-Back,24,Uruguay,FC Barcelona,2022,70000000.0,Uruguay
+Andreas Christensen,Centre-Back,27,Denmark,FC Barcelona,2022,40000000.0,Denmark
+Eric García,Centre-Back,22,Spain,FC Barcelona,2022,10000000.0,Spain
+Chadi Riad,Centre-Back,20,Morocco,FC Barcelona,2022,500000.0,Morocco
+Alejandro Balde,Left-Back,19,Spain,FC Barcelona,2022,50000000.0,Spain
+Marcos Alonso,Left-Back,32,Spain,FC Barcelona,2022,5000000.0,Spain
+Jordi Alba,Left-Back,34,Spain,FC Barcelona,2022,5000000.0,Spain
+Álex Valle,Left-Back,19,Spain,FC Barcelona,2022,500000.0,Spain
+Jules Koundé,Right-Back,24,France,FC Barcelona,2022,60000000.0,France
+Héctor Bellerín,Right-Back,28,Spain,FC Barcelona,2022,8000000.0,Spain
+Sergio Busquets,Defensive Midfield,34,Spain,FC Barcelona,2022,5000000.0,Spain
+Álvaro Sanz,Defensive Midfield,22,Spain,FC Barcelona,2022,700000.0,Spain
+Marc Casadó,Defensive Midfield,19,Spain,FC Barcelona,2022,300000.0,Spain
+Pedri,Central Midfield,20,Spain,FC Barcelona,2022,100000000.0,Spain
+Gavi,Central Midfield,18,Spain,FC Barcelona,2022,90000000.0,Spain
+Frenkie de Jong,Central Midfield,26,Netherlands,FC Barcelona,2022,75000000.0,Netherlands
+Franck Kessié,Central Midfield,26,Cote d'Ivoire,FC Barcelona,2022,25000000.0,Cote d'Ivoire
+Miralem Pjanić,Central Midfield,33,Bosnia-Herzegovina,FC Barcelona,2022,6000000.0,Bosnia-Herzegovina
+Sergi Roberto,Central Midfield,31,Spain,FC Barcelona,2022,5000000.0,Spain
+Aleix Garrido,Central Midfield,19,Spain,FC Barcelona,2022,300000.0,Spain
+Pablo Torre,Attacking Midfield,20,Spain,FC Barcelona,2022,3000000.0,Spain
+Raphinha,Left Winger,26,Brazil,FC Barcelona,2022,60000000.0,Brazil
+Ansu Fati,Left Winger,20,Spain,FC Barcelona,2022,35000000.0,Spain
+Estanis Pedrola,Left Winger,19,Spain,FC Barcelona,2022,500000.0,Spain
+Ousmane Dembélé,Right Winger,26,France,FC Barcelona,2022,60000000.0,France
+Ilias Akhomach,Right Winger,19,Morocco,FC Barcelona,2022,3000000.0,Morocco
+Robert Lewandowski,Centre-Forward,34,Poland,FC Barcelona,2022,30000000.0,Poland
+Ferran Torres,Centre-Forward,23,Spain,FC Barcelona,2022,30000000.0,Spain
+Memphis Depay,Centre-Forward,29,Netherlands,FC Barcelona,2022,14000000.0,Netherlands
+Pierre-Emerick Aubameyang,Centre-Forward,34,Gabon,FC Barcelona,2022,4000000.0,Gabon
+Marc-André ter Stegen,Goalkeeper,32,Germany,FC Barcelona,2023,28000000.0,Germany
+Iñaki Peña,Goalkeeper,25,Spain,FC Barcelona,2023,8000000.0,Spain
+Ander Astralaga,Goalkeeper,20,Spain,FC Barcelona,2023,1000000.0,Spain
+Diego Kochen,Goalkeeper,18,United States,FC Barcelona,2023,100000.0,United States
+Ronald Araujo,Centre-Back,25,Uruguay,FC Barcelona,2023,70000000.0,Uruguay
+Andreas Christensen,Centre-Back,28,Denmark,FC Barcelona,2023,40000000.0,Denmark
+Pau Cubarsí,Centre-Back,17,Spain,FC Barcelona,2023,30000000.0,Spain
+Eric García,Centre-Back,23,Spain,FC Barcelona,2023,20000000.0,Spain
+Mikayil Faye,Centre-Back,19,Senegal,FC Barcelona,2023,10000000.0,Senegal
+Iñigo Martínez,Centre-Back,33,Spain,FC Barcelona,2023,5000000.0,Spain
+Alejandro Balde,Left-Back,20,Spain,FC Barcelona,2023,40000000.0,Spain
+Marcos Alonso,Left-Back,33,Spain,FC Barcelona,2023,2000000.0,Spain
+Jules Koundé,Right-Back,25,France,FC Barcelona,2023,45000000.0,France
+João Cancelo,Right-Back,30,Portugal,FC Barcelona,2023,25000000.0,Portugal
+Héctor Fort,Right-Back,17,Spain,FC Barcelona,2023,10000000.0,Spain
+Marc Casadó,Defensive Midfield,20,Spain,FC Barcelona,2023,2500000.0,Spain
+Oriol Romeu,Defensive Midfield,32,Spain,FC Barcelona,2023,2000000.0,Spain
+Pau Prim,Defensive Midfield,18,Spain,FC Barcelona,2023,500000.0,Spain
+Gavi,Central Midfield,19,Spain,FC Barcelona,2023,90000000.0,Spain
+Pedri,Central Midfield,21,Spain,FC Barcelona,2023,80000000.0,Spain
+Frenkie de Jong,Central Midfield,27,Netherlands,FC Barcelona,2023,70000000.0,Netherlands
+İlkay Gündoğan,Central Midfield,33,Germany,FC Barcelona,2023,15000000.0,Germany
+Sergi Roberto,Central Midfield,32,Spain,FC Barcelona,2023,2500000.0,Spain
+Unai Hernández,Central Midfield,19,Spain,FC Barcelona,2023,800000.0,Spain
+Aleix Garrido,Central Midfield,20,Spain,FC Barcelona,2023,500000.0,Spain
+Fermín López,Attacking Midfield,21,Spain,FC Barcelona,2023,30000000.0,Spain
+Raphinha,Left Winger,27,Brazil,FC Barcelona,2023,50000000.0,Brazil
+Ansu Fati,Left Winger,21,Spain,FC Barcelona,2023,25000000.0,Spain
+Abde Ezzalzouli,Left Winger,22,Morocco,FC Barcelona,2023,9000000.0,Morocco
+Ángel Alarcón,Left Winger,20,Spain,FC Barcelona,2023,300000.0,Spain
+Lamine Yamal,Right Winger,16,Spain,FC Barcelona,2023,90000000.0,Spain
+João Félix,Second Striker,24,Portugal,FC Barcelona,2023,30000000.0,Portugal
+Ferran Torres,Centre-Forward,24,Spain,FC Barcelona,2023,30000000.0,Spain
+Vitor Roque,Centre-Forward,19,Brazil,FC Barcelona,2023,30000000.0,Brazil
+Robert Lewandowski,Centre-Forward,35,Poland,FC Barcelona,2023,15000000.0,Poland
+Marc Guiu,Centre-Forward,18,Spain,FC Barcelona,2023,7500000.0,Spain
+Pau Víctor,Centre-Forward,22,Spain,FC Barcelona,2023,1500000.0,Spain

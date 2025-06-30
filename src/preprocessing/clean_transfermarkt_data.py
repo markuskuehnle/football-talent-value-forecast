@@ -27,10 +27,19 @@ def clean_transfermarkt_dataframe(filepath: str) -> pd.DataFrame:
     # Parse market value
     df['MarketValueEuro'] = df['Market value'].apply(parse_market_value)
 
+    # Define columns to keep, checking if they exist
+    columns_to_keep: list[str] = ['Name', 'Position', 'Age', 'Nationality', 'Current club', 'Season', 'MarketValueEuro']
+    
+    # Add '#' column if it exists, otherwise skip it
+    if '#' in df.columns:
+        columns_to_keep.insert(0, '#')
+    
     # Reduce to useful subset
-    df_clean = df[[
-        '#', 'Name', 'Position', 'Age', 'Nationality', 'Current club', 'Season', 'MarketValueEuro'
-    ]].rename(columns={'#': 'Rank'}).dropna(subset=['MarketValueEuro', 'Season'])
+    df_clean = df[columns_to_keep].dropna(subset=['MarketValueEuro', 'Season'])
+    
+    # Rename '#' to 'Rank' if it exists
+    if '#' in df_clean.columns:
+        df_clean = df_clean.rename(columns={'#': 'Rank'})
 
     # Type cast + normalization
     df_clean['Season'] = df_clean['Season'].astype(str)
