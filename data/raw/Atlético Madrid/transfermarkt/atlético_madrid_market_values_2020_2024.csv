@@ -1,0 +1,125 @@
+Player,Age,Current club,Market value,Nat.,Season,Contract
+"['Jan Oblak', 'Goalkeeper']",28,Atlético Madrid,€70.00m,Slovenia,2020,"Jul 16, 2014"
+"['Ivo Grbic', 'Goalkeeper']",25,Atlético Madrid,€3.50m,Croatia,2020,"Aug 20, 2020"
+"['Miguel San Román', 'Goalkeeper']",23,Atlético Madrid,€700k,Spain,2020,
+"['José María Giménez', 'Centre-Back']",26,Atlético Madrid,€60.00m,Uruguay,2020,"Apr 25, 2013"
+"['Mario Hermoso', 'Centre-Back']",26,Atlético Madrid,€35.00m,Spain,2020,"Jul 18, 2019"
+"['Stefan Savic', 'Centre-Back']",30,Atlético Madrid,€25.00m,Montenegro,2020,"Jul 20, 2015"
+"['Felipe', 'Centre-Back']",32,Atlético Madrid,€12.00m,Brazil,2020,"Jul 1, 2019"
+"['Nehuén Pérez', 'Centre-Back']",21,Atlético Madrid,€4.00m,Argentina,2020,"Jul 3, 2018"
+"['Álvaro García', 'Centre-Back']",21,Atlético Madrid,€200k,Spain,2020,
+"['Adrián Corral', 'Centre-Back']",18,Atlético Madrid,€200k,Spain,2020,
+"['Renan Lodi', 'Left-Back']",23,Atlético Madrid,€25.00m,Brazil,2020,"Jul 7, 2019"
+"['Manu Sánchez', 'Left-Back']",20,Atlético Madrid,€8.00m,Spain,2020,"Jul 1, 2020"
+"['Juan Manuel Sanabria', 'Left-Back']",21,Atlético Madrid,€800k,Uruguay,2020,"Jul 1, 2021"
+"['Kieran Trippier', 'Right-Back']",30,Atlético Madrid,€20.00m,England,2020,"Jul 17, 2019"
+"['Sime Vrsaljko', 'Right-Back']",29,Atlético Madrid,€5.00m,Croatia,2020,"Jul 5, 2016"
+"['Ricard Sánchez', 'Right-Back']",21,Atlético Madrid,€1.50m,Spain,2020,
+"['Thomas Partey', 'Defensive Midfield']",28,Atlético Madrid,€40.00m,Ghana,2020,"Jul 1, 2015"
+"['Lucas Torreira', 'Defensive Midfield']",25,Atlético Madrid,€20.00m,Uruguay,2020,"Oct 5, 2020"
+"['Geoffrey Kondogbia', 'Defensive Midfield']",28,Atlético Madrid,€15.00m,Central African Republic,2020,"Nov 3, 2020"
+"['Koke', 'Central Midfield']",29,Atlético Madrid,€60.00m,Spain,2020,"Jan 1, 2011"
+"['Saúl Ñíguez', 'Central Midfield']",26,Atlético Madrid,€40.00m,Spain,2020,"Jul 1, 2013"
+"['Héctor Herrera', 'Central Midfield']",31,Atlético Madrid,€7.00m,Mexico,2020,"Jul 3, 2019"
+"['Toni Moya', 'Central Midfield']",23,Atlético Madrid,€400k,Spain,2020,
+"['Josep Calavera', 'Central Midfield']",21,Atlético Madrid,€250k,Spain,2020,
+"['Óscar Castro', 'Central Midfield']",20,Atlético Madrid,€50k,Spain,2020,
+"['Marcos Llorente', 'Right Midfield']",26,Atlético Madrid,€80.00m,Spain,2020,"Jul 1, 2019"
+"['Thomas Lemar', 'Attacking Midfield']",25,Atlético Madrid,€25.00m,France,2020,"Jul 1, 2018"
+"['Mario Soriano', 'Attacking Midfield']",19,Atlético Madrid,€500k,Spain,2020,
+"['Yannick Carrasco', 'Left Winger']",27,Atlético Madrid,€40.00m,Belgium,2020,"Sep 8, 2020"
+"['Vitolo', 'Left Winger']",31,Atlético Madrid,€4.00m,Spain,2020,"Jul 12, 2017"
+"['Víctor Mollejo', 'Left Winger']",20,Atlético Madrid,€3.00m,Spain,2020,"Jan 1, 2019"
+"['Ángel Correa', 'Right Winger']",26,Atlético Madrid,€40.00m,Argentina,2020,"Jan 1, 2015"
+"['Germán Valera', 'Right Winger']",19,Atlético Madrid,€2.50m,Spain,2020,"Jul 1, 2023"
+"['João Félix', 'Second Striker']",21,Atlético Madrid,€80.00m,Portugal,2020,"Jul 3, 2019"
+"['Moussa Dembélé', 'Centre-Forward']",24,Atlético Madrid,€20.00m,France,2020,"Jan 13, 2021"
+"['Luis Suárez', 'Centre-Forward']",34,Atlético Madrid,€15.00m,Uruguay,2020,"Jul 1, 2020"
+"['Diego Costa', 'Centre-Forward']",32,Atlético Madrid,€6.00m,Spain,2020,"Jan 1, 2018"
+"['Sergio Camello', 'Centre-Forward']",20,Atlético Madrid,€2.30m,Spain,2020,"Jul 1, 2021"
+"['Ivan Saponjic', 'Centre-Forward']",23,Atlético Madrid,€1.20m,Serbia,2020,"Jul 8, 2019"
+"['Jan Oblak', 'Goalkeeper']",29,Atlético Madrid,€45.00m,Slovenia,2021,"Jul 16, 2014"
+"['Benjamin Lecomte', 'Goalkeeper']",31,Atlético Madrid,€5.00m,France,2021,"Aug 19, 2021"
+"['Ivo Grbic', 'Goalkeeper']",26,Atlético Madrid,€3.50m,Croatia,2021,"Aug 20, 2020"
+"['Christian Gómez', 'Goalkeeper']",22,Atlético Madrid,€0,Spain,2021,
+"['Alejandro Iturbe', 'Goalkeeper']",18,Atlético Madrid,€0,Spain,2021,
+"['Antonio Gomis', 'Goalkeeper']",19,Atlético Madrid,€0,Spain,2021,
+"['José María Giménez', 'Centre-Back']",27,Atlético Madrid,€50.00m,Uruguay,2021,"Apr 25, 2013"
+"['Mario Hermoso', 'Centre-Back']",27,Atlético Madrid,€20.00m,Spain,2021,"Jul 18, 2019"
+"['Stefan Savic', 'Centre-Back']",31,Atlético Madrid,€16.00m,Montenegro,2021,"Jul 20, 2015"
+"['Nehuén Pérez', 'Centre-Back']",22,Atlético Madrid,€6.00m,Argentina,2021,"Jul 3, 2018"
+"['Felipe', 'Centre-Back']",33,Atlético Madrid,€6.00m,Brazil,2021,"Jul 1, 2019"
+"['Marco Moreno', 'Centre-Back']",21,Atlético Madrid,€0,Spain,2021,
+"['Manu Lama', 'Centre-Back']",21,Atlético Madrid,€0,Spain,2021,
+"['Joan Rojas', 'Centre-Back']",22,Atlético Madrid,€0,Spain,2021,
+"['Fran González', 'Centre-Back']",23,Atlético Madrid,€0,Spain,2021,
+"['Ibra Cámara', 'Centre-Back']",19,Atlético Madrid,€0,Spain,2021,
+"['Renan Lodi', 'Left-Back']",24,Atlético Madrid,€30.00m,Brazil,2021,"Jul 7, 2019"
+"['Reinildo Mandava', 'Left-Back']",28,Atlético Madrid,€22.00m,Mozambique,2021,"Jan 31, 2022"
+"['Kieran Trippier', 'Right-Back']",31,Atlético Madrid,€15.00m,England,2021,"Jul 17, 2019"
+"['Sime Vrsaljko', 'Right-Back']",30,Atlético Madrid,€5.00m,Croatia,2021,"Jul 5, 2016"
+"['Sergio Camus', 'Right-Back']",25,Atlético Madrid,€0,Spain,2021,
+"['Sergio Diez', 'Right-Back']",18,Atlético Madrid,€0,Spain,2021,
+"['Geoffrey Kondogbia', 'Defensive Midfield']",29,Atlético Madrid,€20.00m,Central African Republic,2021,"Nov 3, 2020"
+"['Rodrigo De Paul', 'Central Midfield']",28,Atlético Madrid,€40.00m,Argentina,2021,"Jul 12, 2021"
+"['Koke', 'Central Midfield']",30,Atlético Madrid,€25.00m,Spain,2021,"Jan 1, 2011"
+"['Saúl Ñíguez', 'Central Midfield']",27,Atlético Madrid,€25.00m,Spain,2021,"Jul 1, 2013"
+"['Daniel Wass', 'Central Midfield']",33,Atlético Madrid,€6.00m,Denmark,2021,"Jan 27, 2022"
+"['Héctor Herrera', 'Central Midfield']",32,Atlético Madrid,€5.00m,Mexico,2021,"Jul 3, 2019"
+"['Javi Serrano', 'Central Midfield']",19,Atlético Madrid,€0,Spain,2021,"Jul 1, 2022"
+"['Alberto Moreno', 'Central Midfield']",20,Atlético Madrid,€0,Spain,2021,
+"['Pablo Barrios', 'Central Midfield']",19,Atlético Madrid,€0,Spain,2021,"Jan 23, 2023"
+"['Marcos Llorente', 'Right Midfield']",27,Atlético Madrid,€45.00m,Spain,2021,"Jul 1, 2019"
+"['Thomas Lemar', 'Attacking Midfield']",26,Atlético Madrid,€40.00m,France,2021,"Jul 1, 2018"
+"['Yannick Carrasco', 'Left Winger']",28,Atlético Madrid,€40.00m,Belgium,2021,"Sep 8, 2020"
+"['Carlos Martín', 'Left Winger']",20,Atlético Madrid,€0,Spain,2021,"Jul 1, 2023"
+"['Ángel Correa', 'Right Winger']",27,Atlético Madrid,€45.00m,Argentina,2021,"Jan 1, 2015"
+"['Giuliano Simeone', 'Right Winger']",19,Atlético Madrid,€500k,Argentina,2021,"Jul 1, 2022"
+"['João Félix', 'Second Striker']",22,Atlético Madrid,€70.00m,Portugal,2021,"Jul 3, 2019"
+"['Matheus Cunha', 'Second Striker']",23,Atlético Madrid,€30.00m,Brazil,2021,"Aug 25, 2021"
+"['Antoine Griezmann', 'Centre-Forward']",31,Atlético Madrid,€35.00m,France,2021,"Jul 1, 2023"
+"['Luis Suárez', 'Centre-Forward']",35,Atlético Madrid,€8.00m,Uruguay,2021,"Jul 1, 2020"
+"['Sergio Camello', 'Centre-Forward']",21,Atlético Madrid,€3.00m,Spain,2021,"Jul 1, 2021"
+"['Ivan Saponjic', 'Centre-Forward']",24,Atlético Madrid,€800k,Serbia,2021,"Jul 8, 2019"
+"['Jan Oblak', 'Goalkeeper']",31,Atlético Madrid,€28.00m,Slovenia,2023,"Jul 16, 2014"
+"['Ivo Grbic', 'Goalkeeper']",28,Atlético Madrid,€3.50m,Croatia,2023,"Aug 20, 2020"
+"['Horațiu Moldovan', 'Goalkeeper']",26,Atlético Madrid,€2.50m,Romania,2023,"Jan 24, 2024"
+"['Antonio Gomis', 'Goalkeeper']",21,Atlético Madrid,€150k,Spain,2023,
+"['Sergio Mestre', 'Goalkeeper']",19,Atlético Madrid,€50k,Spain,2023,
+"['Mario Hermoso', 'Centre-Back']",29,Atlético Madrid,€25.00m,Spain,2023,"Jul 18, 2019"
+"['José María Giménez', 'Centre-Back']",29,Atlético Madrid,€22.00m,Uruguay,2023,"Apr 25, 2013"
+"['Çağlar Söyüncü', 'Centre-Back']",28,Atlético Madrid,€10.00m,Türkiye,2023,"Jul 5, 2023"
+"['Axel Witsel', 'Centre-Back']",35,Atlético Madrid,€3.50m,Belgium,2023,"Jul 6, 2022"
+"['Stefan Savic', 'Centre-Back']",33,Atlético Madrid,€2.50m,Montenegro,2023,"Jul 20, 2015"
+"['César Azpilicueta', 'Centre-Back']",34,Atlético Madrid,€2.00m,Spain,2023,"Jul 6, 2023"
+"['Gabriel Paulista', 'Centre-Back']",33,Atlético Madrid,€2.00m,Brazil,2023,"Jan 31, 2024"
+"['Marco Moreno', 'Centre-Back']",23,Atlético Madrid,€400k,Spain,2023,
+"['Ilias Kostis', 'Centre-Back']",21,Atlético Madrid,€300k,Greece,2023,
+"['Reinildo Mandava', 'Left-Back']",30,Atlético Madrid,€9.00m,Mozambique,2023,"Jan 31, 2022"
+"['Javi Galán', 'Left-Back']",29,Atlético Madrid,€7.00m,Spain,2023,"Jul 3, 2023"
+"['Nahuel Molina', 'Right-Back']",26,Atlético Madrid,€28.00m,Argentina,2023,"Jul 28, 2022"
+"['Javier Boñar', 'Right-Back']",19,Atlético Madrid,€500k,Spain,2023,
+"['Arthur Vermeeren', 'Defensive Midfield']",19,Atlético Madrid,€25.00m,Belgium,2023,"Jan 26, 2024"
+"['Rodrigo De Paul', 'Central Midfield']",30,Atlético Madrid,€30.00m,Argentina,2023,"Jul 12, 2021"
+"['Pablo Barrios', 'Central Midfield']",21,Atlético Madrid,€25.00m,Spain,2023,"Jan 23, 2023"
+"['Koke', 'Central Midfield']",32,Atlético Madrid,€12.00m,Spain,2023,"Jan 1, 2011"
+"['Saúl Ñíguez', 'Central Midfield']",29,Atlético Madrid,€7.50m,Spain,2023,"Jul 1, 2013"
+"['Aitor Gismera', 'Central Midfield']",20,Atlético Madrid,€250k,Spain,2023,
+"['Sergio Guerrero', 'Central Midfield']",25,Atlético Madrid,€200k,Spain,2023,
+"['Marcos Llorente', 'Right Midfield']",29,Atlético Madrid,€30.00m,Spain,2023,"Jul 1, 2019"
+"['Thomas Lemar', 'Attacking Midfield']",28,Atlético Madrid,€10.00m,France,2023,"Jul 1, 2018"
+"['Samuel Lino', 'Left Winger']",24,Atlético Madrid,€30.00m,Brazil,2023,"Jul 8, 2022"
+"['Rodrigo Riquelme', 'Left Winger']",24,Atlético Madrid,€25.00m,Spain,2023,"Jul 1, 2020"
+"['Yannick Carrasco', 'Left Winger']",30,Atlético Madrid,€14.00m,Belgium,2023,"Sep 8, 2020"
+"['Marcos Paulo', 'Left Winger']",23,Atlético Madrid,€2.00m,Portugal,2023,"Jul 1, 2021"
+"['Salim El Jebari', 'Left Winger']",20,Atlético Madrid,€1.00m,Morocco,2023,
+"['Vitolo', 'Left Winger']",34,Atlético Madrid,€100k,Spain,2023,"Jul 12, 2017"
+"['Rayane Belaid', 'Left Winger']",19,Atlético Madrid,€0,Spain,2023,
+"['Ángel Correa', 'Right Winger']",29,Atlético Madrid,€18.00m,Argentina,2023,"Jan 1, 2015"
+"['Álex Calatrava', 'Right Winger']",24,Atlético Madrid,€200k,Spain,2023,
+"['João Félix', 'Second Striker']",24,Atlético Madrid,€30.00m,Portugal,2023,"Jul 3, 2019"
+"['Antoine Griezmann', 'Centre-Forward']",33,Atlético Madrid,€25.00m,France,2023,"Jul 1, 2023"
+"['Álvaro Morata', 'Centre-Forward']",31,Atlético Madrid,€16.00m,Spain,2023,"Jul 1, 2020"
+"['Memphis Depay', 'Centre-Forward']",30,Atlético Madrid,€10.00m,Netherlands,2023,"Jan 20, 2023"
+"['Adrián Niño', 'Centre-Forward']",20,Atlético Madrid,€500k,Spain,2023,
+"['Abde Raihani', 'Centre-Forward']",20,Atlético Madrid,€300k,Morocco,2023,

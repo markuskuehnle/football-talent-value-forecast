@@ -1,0 +1,177 @@
+Player,Age,Current club,Market value,Nat.,Season,Contract
+"['Thibaut Courtois', 'Goalkeeper']",29,Real Madrid CF,€60.00m,Belgium,2020,"Aug 9, 2018"
+"['Andriy Lunin', 'Goalkeeper']",22,Real Madrid CF,€3.00m,Ukraine,2020,"Jul 1, 2018"
+"['Diego Altube', 'Goalkeeper']",21,Real Madrid CF,€500k,Spain,2020,
+"['Luis López', 'Goalkeeper']",20,Real Madrid CF,€150k,Spain,2020,
+"['Lucas Cañizares', 'Goalkeeper']",19,Real Madrid CF,€0,Spain,2020,
+"['Raphaël Varane', 'Centre-Back']",28,Real Madrid CF,€70.00m,France,2020,"Jul 1, 2011"
+"['Éder Militão', 'Centre-Back']",23,Real Madrid CF,€40.00m,Brazil,2020,"Jul 1, 2019"
+"['Sergio Ramos', 'Centre-Back']",35,Real Madrid CF,€10.00m,Spain,2020,"Aug 31, 2005"
+"['Nacho Fernández', 'Centre-Back']",31,Real Madrid CF,€10.00m,Spain,2020,"Sep 1, 2012"
+"['Víctor Chust', 'Centre-Back']",21,Real Madrid CF,€400k,Spain,2020,"Jul 1, 2021"
+"['Pablo Ramón', 'Centre-Back']",20,Real Madrid CF,€50k,Spain,2020,
+"['Ferland Mendy', 'Left-Back']",26,Real Madrid CF,€50.00m,France,2020,"Jul 1, 2019"
+"['Marcelo', 'Left-Back']",33,Real Madrid CF,€7.50m,Brazil,2020,"Jan 1, 2007"
+"['Miguel Gutiérrez', 'Left-Back']",19,Real Madrid CF,€5.00m,Spain,2020,"Jul 1, 2022"
+"['Daniel Carvajal', 'Right-Back']",29,Real Madrid CF,€30.00m,Spain,2020,"Jul 1, 2013"
+"['Lucas Vázquez', 'Right-Back']",29,Real Madrid CF,€15.00m,Spain,2020,"Jul 2, 2015"
+"['Álvaro Odriozola', 'Right-Back']",25,Real Madrid CF,€10.00m,Spain,2020,"Jul 5, 2018"
+"['Marvin Park', 'Right-Back']",20,Real Madrid CF,€500k,Spain,2020,
+"['Sergio Santos', 'Right-Back']",20,Real Madrid CF,€200k,Spain,2020,
+"['Casemiro', 'Defensive Midfield']",29,Real Madrid CF,€70.00m,Brazil,2020,"Jul 2, 2015"
+"['Antonio Blanco', 'Defensive Midfield']",20,Real Madrid CF,€5.00m,Spain,2020,"Jul 1, 2022"
+"['Federico Valverde', 'Central Midfield']",22,Real Madrid CF,€65.00m,Uruguay,2020,"Jul 1, 2018"
+"['Toni Kroos', 'Central Midfield']",31,Real Madrid CF,€40.00m,Germany,2020,"Jul 17, 2014"
+"['Luka Modrić', 'Central Midfield']",35,Real Madrid CF,€10.00m,Croatia,2020,"Aug 27, 2012"
+"['Martin Ødegaard', 'Attacking Midfield']",22,Real Madrid CF,€40.00m,Norway,2020,"Jan 8, 2017"
+"['Marco Asensio', 'Attacking Midfield']",25,Real Madrid CF,€35.00m,Spain,2020,"Jul 1, 2015"
+"['Isco', 'Attacking Midfield']",29,Real Madrid CF,€18.00m,Spain,2020,"Jul 1, 2013"
+"['Sergio Arribas', 'Attacking Midfield']",19,Real Madrid CF,€3.00m,Spain,2020,
+"['Eden Hazard', 'Left Winger']",30,Real Madrid CF,€40.00m,Belgium,2020,"Jul 1, 2019"
+"['Vinicius Junior', 'Left Winger']",20,Real Madrid CF,€40.00m,Brazil,2020,"Jul 12, 2018"
+"['Óscar Aranda', 'Left Winger']",19,Real Madrid CF,€0,Spain,2020,
+"['Rodrygo', 'Right Winger']",20,Real Madrid CF,€35.00m,Brazil,2020,"Jul 1, 2019"
+"['Karim Benzema', 'Centre-Forward']",33,Real Madrid CF,€25.00m,France,2020,"Jul 9, 2009"
+"['Luka Jović', 'Centre-Forward']",23,Real Madrid CF,€20.00m,Serbia,2020,"Jul 2, 2019"
+"['Borja Mayoral', 'Centre-Forward']",24,Real Madrid CF,€14.00m,Spain,2020,"Jul 1, 2016"
+"['Mariano Díaz', 'Centre-Forward']",27,Real Madrid CF,€10.00m,Dominican Republic,2020,"Aug 29, 2018"
+"['Hugo Duro', 'Centre-Forward']",21,Real Madrid CF,€5.00m,Spain,2020,
+"['Thibaut Courtois', 'Goalkeeper']",30,Real Madrid CF,€60.00m,Belgium,2021,"Aug 9, 2018"
+"['Andriy Lunin', 'Goalkeeper']",23,Real Madrid CF,€2.50m,Ukraine,2021,"Jul 1, 2018"
+"['Luis López', 'Goalkeeper']",21,Real Madrid CF,€300k,Spain,2021,
+"['Toni Fuidias', 'Goalkeeper']",21,Real Madrid CF,€300k,Spain,2021,
+"['Diego Piñeiro', 'Goalkeeper']",18,Real Madrid CF,€0,Spain,2021,
+"['Éder Militão', 'Centre-Back']",24,Real Madrid CF,€60.00m,Brazil,2021,"Jul 1, 2019"
+"['David Alaba', 'Centre-Back']",30,Real Madrid CF,€55.00m,Austria,2021,"Jul 1, 2021"
+"['Nacho Fernández', 'Centre-Back']",32,Real Madrid CF,€7.00m,Spain,2021,"Sep 1, 2012"
+"['Jesús Vallejo', 'Centre-Back']",25,Real Madrid CF,€3.00m,Spain,2021,"Jul 31, 2015"
+"['Mario Gila', 'Centre-Back']",21,Real Madrid CF,€500k,Spain,2021,
+"['Rafa Marín', 'Centre-Back']",20,Real Madrid CF,€400k,Spain,2021,"Jul 1, 2023"
+"['Ferland Mendy', 'Left-Back']",27,Real Madrid CF,€40.00m,France,2021,"Jul 1, 2019"
+"['Miguel Gutiérrez', 'Left-Back']",20,Real Madrid CF,€6.00m,Spain,2021,"Jul 1, 2022"
+"['Marcelo', 'Left-Back']",34,Real Madrid CF,€3.00m,Brazil,2021,"Jan 1, 2007"
+"['Daniel Carvajal', 'Right-Back']",30,Real Madrid CF,€18.00m,Spain,2021,"Jul 1, 2013"
+"['Lucas Vázquez', 'Right-Back']",30,Real Madrid CF,€12.00m,Spain,2021,"Jul 2, 2015"
+"['Álvaro Odriozola', 'Right-Back']",26,Real Madrid CF,€12.00m,Spain,2021,"Jul 5, 2018"
+"['Sergio Santos', 'Right-Back']",21,Real Madrid CF,€250k,Spain,2021,
+"['Casemiro', 'Defensive Midfield']",30,Real Madrid CF,€40.00m,Brazil,2021,"Jul 2, 2015"
+"['Antonio Blanco', 'Defensive Midfield']",21,Real Madrid CF,€5.00m,Spain,2021,"Jul 1, 2022"
+"['Federico Valverde', 'Central Midfield']",23,Real Madrid CF,€70.00m,Uruguay,2021,"Jul 1, 2018"
+"['Eduardo Camavinga', 'Central Midfield']",19,Real Madrid CF,€55.00m,France,2021,"Aug 31, 2021"
+"['Toni Kroos', 'Central Midfield']",32,Real Madrid CF,€20.00m,Germany,2021,"Jul 17, 2014"
+"['Dani Ceballos', 'Central Midfield']",25,Real Madrid CF,€14.00m,Spain,2021,"Jul 14, 2017"
+"['Luka Modrić', 'Central Midfield']",36,Real Madrid CF,€10.00m,Croatia,2021,"Aug 27, 2012"
+"['Marco Asensio', 'Attacking Midfield']",26,Real Madrid CF,€40.00m,Spain,2021,"Jul 1, 2015"
+"['Isco', 'Attacking Midfield']",30,Real Madrid CF,€7.50m,Spain,2021,"Jul 1, 2013"
+"['Vinicius Junior', 'Left Winger']",21,Real Madrid CF,€100.00m,Brazil,2021,"Jul 12, 2018"
+"['Eden Hazard', 'Left Winger']",31,Real Madrid CF,€12.00m,Belgium,2021,"Jul 1, 2019"
+"['Rodrygo', 'Right Winger']",21,Real Madrid CF,€60.00m,Brazil,2021,"Jul 1, 2019"
+"['Gareth Bale', 'Right Winger']",32,Real Madrid CF,€3.00m,Wales,2021,"Sep 1, 2013"
+"['Peter Federico', 'Right Winger']",19,Real Madrid CF,€1.00m,Dominican Republic,2021,
+"['Karim Benzema', 'Centre-Forward']",34,Real Madrid CF,€30.00m,France,2021,"Jul 9, 2009"
+"['Luka Jović', 'Centre-Forward']",24,Real Madrid CF,€16.00m,Serbia,2021,"Jul 2, 2019"
+"['Mariano Díaz', 'Centre-Forward']",28,Real Madrid CF,€6.00m,Dominican Republic,2021,"Aug 29, 2018"
+"['Juanmi Latasa', 'Centre-Forward']",21,Real Madrid CF,€1.00m,Spain,2021,"Jul 1, 2022"
+"['Thibaut Courtois', 'Goalkeeper']",31,Real Madrid CF,€45.00m,Belgium,2022,"Aug 9, 2018"
+"['Andriy Lunin', 'Goalkeeper']",24,Real Madrid CF,€5.00m,Ukraine,2022,"Jul 1, 2018"
+"['Mario de Luis', 'Goalkeeper']",21,Real Madrid CF,€500k,Spain,2022,
+"['Luis López', 'Goalkeeper']",22,Real Madrid CF,€300k,Spain,2022,
+"['Lucas Cañizares', 'Goalkeeper']",21,Real Madrid CF,€200k,Spain,2022,
+"['Diego Piñeiro', 'Goalkeeper']",19,Real Madrid CF,€0,Spain,2022,
+"['Fran González', 'Goalkeeper']",18,Real Madrid CF,€0,Spain,2022,
+"['Éder Militão', 'Centre-Back']",25,Real Madrid CF,€70.00m,Brazil,2022,"Jul 1, 2019"
+"['David Alaba', 'Centre-Back']",31,Real Madrid CF,€40.00m,Austria,2022,"Jul 1, 2021"
+"['Antonio Rüdiger', 'Centre-Back']",30,Real Madrid CF,€32.00m,Germany,2022,"Jul 1, 2022"
+"['Nacho Fernández', 'Centre-Back']",33,Real Madrid CF,€6.00m,Spain,2022,"Sep 1, 2012"
+"['Jesús Vallejo', 'Centre-Back']",26,Real Madrid CF,€2.00m,Spain,2022,"Jul 31, 2015"
+"['Marvel', 'Centre-Back']",20,Real Madrid CF,€1.00m,Spain,2022,
+"['Ferland Mendy', 'Left-Back']",28,Real Madrid CF,€25.00m,France,2022,"Jul 1, 2019"
+"['Daniel Carvajal', 'Right-Back']",31,Real Madrid CF,€12.00m,Spain,2022,"Jul 1, 2013"
+"['Lucas Vázquez', 'Right-Back']",31,Real Madrid CF,€8.00m,Spain,2022,"Jul 2, 2015"
+"['Álvaro Odriozola', 'Right-Back']",27,Real Madrid CF,€5.00m,Spain,2022,"Jul 5, 2018"
+"['Vinícius Tobias', 'Right-Back']",19,Real Madrid CF,€3.00m,Brazil,2022,
+"['Aurélien Tchouaméni', 'Defensive Midfield']",23,Real Madrid CF,€85.00m,France,2022,"Jul 1, 2022"
+"['Casemiro', 'Defensive Midfield']",31,Real Madrid CF,€40.00m,Brazil,2022,"Jul 2, 2015"
+"['Mario Martín', 'Defensive Midfield']",19,Real Madrid CF,€250k,Spain,2022,"Jun 1, 2025"
+"['Federico Valverde', 'Central Midfield']",24,Real Madrid CF,€100.00m,Uruguay,2022,"Jul 1, 2018"
+"['Eduardo Camavinga', 'Central Midfield']",20,Real Madrid CF,€85.00m,France,2022,"Aug 31, 2021"
+"['Toni Kroos', 'Central Midfield']",33,Real Madrid CF,€15.00m,Germany,2022,"Jul 17, 2014"
+"['Dani Ceballos', 'Central Midfield']",26,Real Madrid CF,€12.00m,Spain,2022,"Jul 14, 2017"
+"['Luka Modrić', 'Central Midfield']",37,Real Madrid CF,€10.00m,Croatia,2022,"Aug 27, 2012"
+"['Carlos Dotor', 'Central Midfield']",22,Real Madrid CF,€700k,Spain,2022,
+"['Marco Asensio', 'Attacking Midfield']",27,Real Madrid CF,€25.00m,Spain,2022,"Jul 1, 2015"
+"['Sergio Arribas', 'Attacking Midfield']",21,Real Madrid CF,€5.00m,Spain,2022,
+"['Nico Paz', 'Attacking Midfield']",18,Real Madrid CF,€2.00m,Argentina,2022,
+"['Vinicius Junior', 'Left Winger']",22,Real Madrid CF,€150.00m,Brazil,2022,"Jul 12, 2018"
+"['Eden Hazard', 'Left Winger']",32,Real Madrid CF,€5.00m,Belgium,2022,"Jul 1, 2019"
+"['Rodrygo', 'Right Winger']",22,Real Madrid CF,€100.00m,Brazil,2022,"Jul 1, 2019"
+"['Karim Benzema', 'Centre-Forward']",35,Real Madrid CF,€25.00m,France,2022,"Jul 9, 2009"
+"['Álvaro Rodríguez', 'Centre-Forward']",18,Real Madrid CF,€6.00m,Uruguay,2022,"Jul 1, 2024"
+"['Mariano Díaz', 'Centre-Forward']",29,Real Madrid CF,€2.50m,Dominican Republic,2022,"Aug 29, 2018"
+"['Thibaut Courtois', 'Goalkeeper']",32,Real Madrid CF,€28.00m,Belgium,2023,"Aug 9, 2018"
+"['Andriy Lunin', 'Goalkeeper']",25,Real Madrid CF,€25.00m,Ukraine,2023,"Jul 1, 2018"
+"['Kepa Arrizabalaga', 'Goalkeeper']",29,Real Madrid CF,€12.00m,Spain,2023,"Aug 14, 2023"
+"['Lucas Cañizares', 'Goalkeeper']",22,Real Madrid CF,€400k,Spain,2023,
+"['Mario de Luis', 'Goalkeeper']",22,Real Madrid CF,€400k,Spain,2023,
+"['Diego Piñeiro', 'Goalkeeper']",20,Real Madrid CF,€50k,Spain,2023,
+"['Fran González', 'Goalkeeper']",19,Real Madrid CF,€0,Spain,2023,
+"['Éder Militão', 'Centre-Back']",26,Real Madrid CF,€60.00m,Brazil,2023,"Jul 1, 2019"
+"['Antonio Rüdiger', 'Centre-Back']",31,Real Madrid CF,€25.00m,Germany,2023,"Jul 1, 2022"
+"['David Alaba', 'Centre-Back']",32,Real Madrid CF,€20.00m,Austria,2023,"Jul 1, 2021"
+"['Nacho Fernández', 'Centre-Back']",34,Real Madrid CF,€3.00m,Spain,2023,"Sep 1, 2012"
+"['Álvaro Carrillo', 'Centre-Back']",22,Real Madrid CF,€300k,Spain,2023,
+"['Edgar Pujol', 'Centre-Back']",19,Real Madrid CF,€250k,Dominican Republic,2023,
+"['Jacobo Ramón', 'Centre-Back']",19,Real Madrid CF,€100k,Spain,2023,
+"['Ferland Mendy', 'Left-Back']",29,Real Madrid CF,€22.00m,France,2023,"Jul 1, 2019"
+"['Fran García', 'Left-Back']",24,Real Madrid CF,€15.00m,Spain,2023,"Jul 1, 2023"
+"['Daniel Carvajal', 'Right-Back']",32,Real Madrid CF,€12.00m,Spain,2023,"Jul 1, 2013"
+"['Lucas Vázquez', 'Right-Back']",32,Real Madrid CF,€4.00m,Spain,2023,"Jul 2, 2015"
+"['Vinícius Tobias', 'Right-Back']",20,Real Madrid CF,€3.00m,Brazil,2023,
+"['Álvaro Odriozola', 'Right-Back']",28,Real Madrid CF,€2.50m,Spain,2023,"Jul 5, 2018"
+"['Aurélien Tchouaméni', 'Defensive Midfield']",24,Real Madrid CF,€100.00m,France,2023,"Jul 1, 2022"
+"['Mario Martín', 'Defensive Midfield']",20,Real Madrid CF,€300k,Spain,2023,"Jun 1, 2025"
+"['Federico Valverde', 'Central Midfield']",25,Real Madrid CF,€120.00m,Uruguay,2023,"Jul 1, 2018"
+"['Eduardo Camavinga', 'Central Midfield']",21,Real Madrid CF,€100.00m,France,2023,"Aug 31, 2021"
+"['Toni Kroos', 'Central Midfield']",34,Real Madrid CF,€10.00m,Germany,2023,"Jul 17, 2014"
+"['Luka Modrić', 'Central Midfield']",38,Real Madrid CF,€6.00m,Croatia,2023,"Aug 27, 2012"
+"['Dani Ceballos', 'Central Midfield']",27,Real Madrid CF,€6.00m,Spain,2023,"Jul 14, 2017"
+"['Théo Zidane', 'Central Midfield']",22,Real Madrid CF,€300k,France,2023,
+"['Jude Bellingham', 'Attacking Midfield']",21,Real Madrid CF,€180.00m,England,2023,"Jul 1, 2023"
+"['Nico Paz', 'Attacking Midfield']",19,Real Madrid CF,€10.00m,Argentina,2023,
+"['Vinicius Junior', 'Left Winger']",23,Real Madrid CF,€180.00m,Brazil,2023,"Jul 12, 2018"
+"['Rodrygo', 'Right Winger']",23,Real Madrid CF,€110.00m,Brazil,2023,"Jul 1, 2019"
+"['Brahim Díaz', 'Right Winger']",24,Real Madrid CF,€40.00m,Morocco,2023,"Jan 6, 2019"
+"['Arda Güler', 'Right Winger']",19,Real Madrid CF,€30.00m,Türkiye,2023,"Jul 6, 2023"
+"['Kylian Mbappé', 'Centre-Forward']",25,Real Madrid CF,€180.00m,France,2023,"Jul 1, 2024"
+"['Joselu', 'Centre-Forward']",34,Real Madrid CF,€5.00m,Spain,2023,"Jul 1, 2024"
+"['Álvaro Rodríguez', 'Centre-Forward']",19,Real Madrid CF,€3.50m,Uruguay,2023,"Jul 1, 2024"
+"['Gonzalo García', 'Centre-Forward']",20,Real Madrid CF,€1.00m,Spain,2023,
+"['Thibaut Courtois', 'Goalkeeper']",33,Real Madrid CF,€20.00m,Belgium,2024,"Jun 30, 2026"
+"['Andriy Lunin', 'Goalkeeper']",26,Real Madrid CF,€18.00m,Ukraine,2024,"Jun 30, 2030"
+"['Fran González', 'Goalkeeper']",20,Real Madrid CF,€400k,Spain,2024,"Jun 30, 2026"
+"['Dean Huijsen', 'Centre-Back']",20,Real Madrid CF,€60.00m,Spain,2024,"Jun 30, 2030"
+"['Raúl Asencio', 'Centre-Back']",22,Real Madrid CF,€40.00m,Spain,2024,"Jun 30, 2026"
+"['Éder Militão', 'Centre-Back']",27,Real Madrid CF,€30.00m,Brazil,2024,"Jun 30, 2028"
+"['Antonio Rüdiger', 'Centre-Back']",32,Real Madrid CF,€20.00m,Germany,2024,"Jun 30, 2026"
+"['David Alaba', 'Centre-Back']",33,Real Madrid CF,€6.00m,Austria,2024,"Jun 30, 2026"
+"['Jesús Vallejo', 'Centre-Back']",28,Real Madrid CF,€1.00m,Spain,2024,"Jun 30, 2025"
+"['Fran García', 'Left-Back']",25,Real Madrid CF,€18.00m,Spain,2024,"Jun 30, 2027"
+"['Ferland Mendy', 'Left-Back']",30,Real Madrid CF,€14.00m,France,2024,"Jun 30, 2028"
+"['Trent Alexander-Arnold', 'Right-Back']",26,Real Madrid CF,€75.00m,England,2024,"Jun 30, 2031"
+"['Daniel Carvajal', 'Right-Back']",33,Real Madrid CF,€8.00m,Spain,2024,"Jun 30, 2026"
+"['Lucas Vázquez', 'Right-Back']",33,Real Madrid CF,€3.00m,Spain,2024,"Jun 30, 2025"
+"['Aurélien Tchouaméni', 'Defensive Midfield']",25,Real Madrid CF,€75.00m,France,2024,"Jun 30, 2028"
+"['Mario Martín', 'Defensive Midfield']",21,Real Madrid CF,€1.50m,Spain,2024,"Jun 30, 2026"
+"['Federico Valverde', 'Central Midfield']",26,Real Madrid CF,€130.00m,Uruguay,2024,"Jun 30, 2029"
+"['Eduardo Camavinga', 'Central Midfield']",22,Real Madrid CF,€60.00m,France,2024,"Jun 30, 2029"
+"['Dani Ceballos', 'Central Midfield']",28,Real Madrid CF,€10.00m,Spain,2024,"Jun 30, 2027"
+"['Luka Modrić', 'Central Midfield']",39,Real Madrid CF,€4.00m,Croatia,2024,"Jun 30, 2025"
+"['Jude Bellingham', 'Attacking Midfield']",22,Real Madrid CF,€180.00m,England,2024,"Jun 30, 2029"
+"['Reinier', 'Attacking Midfield']",23,Real Madrid CF,€1.50m,Brazil,2024,"Jun 30, 2026"
+"['Vinicius Junior', 'Left Winger']",24,Real Madrid CF,€170.00m,Brazil,2024,"Jun 30, 2027"
+"['Rodrygo', 'Right Winger']",24,Real Madrid CF,€90.00m,Brazil,2024,"Jun 30, 2028"
+"['Arda Güler', 'Right Winger']",20,Real Madrid CF,€45.00m,Türkiye,2024,"Jun 30, 2029"
+"['Brahim Díaz', 'Right Winger']",25,Real Madrid CF,€40.00m,Morocco,2024,"Jun 30, 2027"
+"['Kylian Mbappé', 'Centre-Forward']",26,Real Madrid CF,€180.00m,France,2024,"Jun 30, 2029"
+"['Endrick', 'Centre-Forward']",18,Real Madrid CF,€35.00m,Brazil,2024,"Jun 30, 2030"
+"['Álvaro Rodríguez', 'Centre-Forward']",20,Real Madrid CF,€2.50m,Uruguay,2024,"Jun 30, 2027"
