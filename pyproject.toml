@@ -19,6 +19,8 @@ dependencies = [
     "pytest>=7.0.0",
     "selenium>=4.34.0",
     "scikit-learn>=1.7.0",
+    "xgboost>=2.1.1",
+    "optuna>=3.6.1",
 ]
 
 [project.optional-dependencies]
